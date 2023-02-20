@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .navbar {
+    align-items: center;
+    display: flex !important;
+    justify-content: space-between;
+  }
+}
+
+.navigation {
+  width: 100%;
+  position: absolute;
+}
