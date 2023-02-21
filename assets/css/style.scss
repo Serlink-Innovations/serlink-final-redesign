@@ -180,6 +180,7 @@ section.services {
     }
 
     .card:hover {
+      background-color: aliceblue;
       box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.3);
       cursor: pointer;
       transform: scale(1.05);
@@ -202,8 +203,10 @@ section.services {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     min-height: 250px;
     margin-block: 2rem;
+    place-content: center;
 
     .footer--title {
+      width: 100%;
       color: var(--primary);
       font-size: 1.3rem;
       font-weight: bold;
@@ -229,8 +232,11 @@ section.services {
     }
 
     .footer__nav {
+      align-items: center;
       display: flex;
       flex-direction: column;
+      margin: auto;
+      justify-content: space-around;
 
       ul {
         display: block;
@@ -247,9 +253,8 @@ section.services {
         }
 
         li:hover {
-          color: #af9a7e;
-          font-weight: bold;
-          padding-left: 1rem;
+          color: var(--primary);
+          transform: scale(1.05);
           text-decoration: underline;
           text-underline-offset: 0.25em;
           text-decoration-thickness: 0.15em;
@@ -259,7 +264,12 @@ section.services {
 
     .social {
       display: flex;
+      font-family: Helvetica, sans-serif;
       flex-direction: column;
+
+      p:last-child {
+        line-height: 1.5;
+      }
 
       .social__Container {
         display: grid;

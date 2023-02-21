@@ -407,6 +407,7 @@ section.services #servicesContainer .card {
   transition: ease-in-out 700ms;
 }
 section.services #servicesContainer .card:hover {
+  background-color: aliceblue;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transform: scale(1.05);
@@ -426,8 +427,10 @@ section.services #servicesContainer .card:hover .card-footer > label {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   min-height: 250px;
   margin-block: 2rem;
+  place-content: center;
 }
 .footer #footer--contentConainter .footer--title {
+  width: 100%;
   color: var(--primary);
   font-size: 1.3rem;
   font-weight: bold;
@@ -449,8 +452,11 @@ section.services #servicesContainer .card:hover .card-footer > label {
   padding-bottom: 1rem;
 }
 .footer #footer--contentConainter .footer__nav {
+  align-items: center;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  justify-content: space-around;
 }
 .footer #footer--contentConainter .footer__nav ul {
   display: block;
@@ -466,16 +472,19 @@ section.services #servicesContainer .card:hover .card-footer > label {
   text-decoration: none;
 }
 .footer #footer--contentConainter .footer__nav ul li:hover {
-  color: #af9a7e;
-  font-weight: bold;
-  padding-left: 1rem;
+  color: var(--primary);
+  transform: scale(1.05);
   text-decoration: underline;
   text-underline-offset: 0.25em;
   text-decoration-thickness: 0.15em;
 }
 .footer #footer--contentConainter .social {
   display: flex;
+  font-family: Helvetica, sans-serif;
   flex-direction: column;
+}
+.footer #footer--contentConainter .social p:last-child {
+  line-height: 1.5;
 }
 .footer #footer--contentConainter .social .social__Container {
   display: grid;
