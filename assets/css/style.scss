@@ -105,6 +105,13 @@ body {
 }
 
 /**
+* Main Content Container
+**/
+.main {
+  margin-bottom: 2rem;
+}
+
+/**
 * Sections
 **/
 section.about,
@@ -193,6 +200,23 @@ section.services {
   }
 }
 
+section.projects {
+  background-color: var(--secondary);
+
+  .projects--content__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    #projects--content__paragraph {
+      font-family: Helvetica, sans-serif;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+}
+
 /**
 * Section Team
 **/
@@ -201,13 +225,20 @@ section.team {
   display: flex;
   flex-direction: column;
 
+  #team--paragraph {
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-block: 2rem;
+  }
+
   #team--memberContainer {
     width: 100%;
   }
 }
 
 .footer {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   margin-top: auto;
 
   #footer--contentConainter {

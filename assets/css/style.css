@@ -1,5 +1,6 @@
 :root {
   --primary: #224c8d;
+  --secondary: #f0f8ff;
   --text-primary: #ffffff;
   --text-secondary: #000000;
 }
@@ -120,14 +121,18 @@ img {
 
 .member-card {
   max-width: 250px;
-  height: auto;
+  height: 100%;
   border-radius: 8px;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   position: relative;
   overflow: hidden;
 }
+.member-card img {
+  width: 100%;
+  height: 100%;
+}
 .member-card .member-info {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(240, 248, 255, 0.6);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   color: var(--text-secondary);
@@ -150,6 +155,25 @@ img {
 .member-card .member-info .name {
   font-size: clamp(1rem, 10vw, 1.5rem);
   padding-bottom: 1rem;
+  text-align: center;
+}
+.member-card .member-info .member-social {
+  align-items: center;
+  display: none;
+  gap: 1rem;
+  justify-content: center;
+}
+.member-card .member-info .member-social a {
+  background-color: var(--primary);
+  border-radius: 100vmax;
+  overflow: hidden;
+  padding: 0.4em;
+}
+.member-card .member-info .member-social svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: var(--text-primary);
+  margin: 0.4rem;
 }
 
 .member-card:hover > .member-info {
@@ -157,6 +181,9 @@ img {
   transform: translateY(0%) translateY(0px);
   position: absolute;
   height: 100%;
+}
+.member-card:hover > .member-info .member-social {
+  display: flex;
 }
 
 /**
@@ -382,6 +409,13 @@ body {
 }
 
 /**
+* Main Content Container
+**/
+.main {
+  margin-bottom: 2rem;
+}
+
+/**
 * Sections
 **/
 section.about,
@@ -462,6 +496,21 @@ section.services #servicesContainer .card:hover .card-footer > label {
   text-shadow: 5px 3px 0px #af9a7e;
 }
 
+section.projects {
+  background-color: var(--secondary);
+}
+section.projects .projects--content__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+section.projects .projects--content__container #projects--content__paragraph {
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /**
 * Section Team
 **/
@@ -470,12 +519,18 @@ section.team {
   display: flex;
   flex-direction: column;
 }
+section.team #team--paragraph {
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding-block: 2rem;
+}
 section.team #team--memberContainer {
   width: 100%;
 }
 
 .footer {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   margin-top: auto;
 }
 .footer #footer--contentConainter {
