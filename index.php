@@ -19,7 +19,7 @@
 
                 <li class="nav-item">
 
-                    <a class="nav-links" href="">
+                    <a class="nav-links" href="#about">
                         About
                     </a>
 
@@ -27,7 +27,7 @@
 
                 <li class="nav-item">
 
-                    <a class="nav-links" href="">
+                    <a class="nav-links" href="#services">
                         Services
                     </a>
 
@@ -43,7 +43,7 @@
 
                 <li class="nav-item">
 
-                    <a class="nav-links" href="">
+                    <a class="nav-links" href="#team">
                         Team
                     </a>
 
@@ -62,7 +62,7 @@
 
         <div class="hero--contentContainer container">
 
-            <p class="display-1">
+            <p class="display-1 bold">
                 CONNECTING YOU TO <br> THE WORLD
             </p>
 
@@ -121,7 +121,7 @@
 
 <main class="main">
 
-    <section class="about container">
+    <section class="about container" id="about">
 
         <p class="bold center display-3 section-title">About Us</p>
 
@@ -176,7 +176,7 @@
 
     </section>
 
-    <section class="services container">
+    <section class="services container" id="services">
 
         <p class="bold center display-3 section-title">Our Services</p>
 
@@ -2430,9 +2430,59 @@
 
     </section>
 
-    <section class="team container">
+    <section class="team container" id="team">
 
-        <p class="center display-3 section-title">Meet the Team</p>
+        <p class="bold center display-3 section-title">Meet the Team</p>
+
+        <div id="team--memberContainer">
+
+            <div class="card-tray">
+                
+                <div class="member-card">
+
+                    <img src="https://images.pexels.com/photos/5689163/pexels-photo-5689163.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+
+                    <div class="member-info">
+                    
+                    <label class="title" for="title">Founder</label>
+
+                    <label class="name" for="name">Kaleb Carrington</label>
+
+                    </div>
+                    
+                </div>
+
+                <div class="member-card">
+
+                    <img src="https://images.pexels.com/photos/2820593/pexels-photo-2820593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+
+                    <div class="member-info">
+                    
+                    <label class="title" for="title">Manager</label>
+
+                    <label class="name" for="name">Nataliyah Johnson</label>
+
+                    </div>
+                    
+                </div>
+
+                <div class="member-card">
+
+                    <img src="https://images.pexels.com/photos/620074/pexels-photo-620074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+
+                    <div class="member-info">
+                    
+                    <label class="title" for="title">Cheif Technical Office</label>
+
+                    <label class="name" for="name">Aldraian Clairmont</label>
+
+                    </div>
+                    
+                </div>
+            
+            </div>
+
+        </div>
 
     </section>
 

@@ -1,6 +1,7 @@
 :root {
   --primary: #224c8d;
   --text-primary: #ffffff;
+  --text-secondary: #000000;
 }
 
 @media (min-width: 768px) {
@@ -76,13 +77,16 @@ img {
 .card-tray {
   width: 100%;
   display: grid;
+  gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
 }
 
 .card {
   max-width: 250px;
   height: auto;
   padding: 1rem;
+  position: relative;
 }
 .card .card-header {
   align-items: center;
@@ -112,6 +116,47 @@ img {
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   font-size: clamp(1.5rem, 10vw, 3rem);
+}
+
+.member-card {
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+.member-card .member-info {
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  color: var(--text-secondary);
+  display: grid;
+  place-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.member-card .member-info .title {
+  display: flex;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  padding-block: 0.5rem;
+  justify-content: center;
+}
+.member-card .member-info .name {
+  font-size: clamp(1rem, 10vw, 1.5rem);
+  padding-bottom: 1rem;
+}
+
+.member-card:hover > .member-info {
+  cursor: pointer;
+  transform: translateY(0%) translateY(0px);
+  position: absolute;
+  height: 100%;
 }
 
 /**
@@ -415,6 +460,18 @@ section.services #servicesContainer .card:hover {
 section.services #servicesContainer .card:hover .card-footer > label {
   color: var(--primary);
   text-shadow: 5px 3px 0px #af9a7e;
+}
+
+/**
+* Section Team
+**/
+section.team {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+section.team #team--memberContainer {
+  width: 100%;
 }
 
 .footer {

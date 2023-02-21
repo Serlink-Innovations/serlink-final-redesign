@@ -193,6 +193,19 @@ section.services {
   }
 }
 
+/**
+* Section Team
+**/
+section.team {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  #team--memberContainer {
+    width: 100%;
+  }
+}
+
 .footer {
   background-color: aliceblue;
   margin-top: auto;
