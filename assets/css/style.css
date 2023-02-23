@@ -671,7 +671,7 @@ section.team #team--memberContainer {
   font-family: Helvetica, sans-serif;
   flex-direction: column;
 }
-.footer #footer--contentConainter .social p:last-child {
+.footer #footer--contentConainter .social p {
   line-height: 1.5;
 }
 .footer #footer--contentConainter .social .social__Container {
