@@ -2434,6 +2434,34 @@
                 The team has a track record of delivering successful IT projects for a wide range of clients. We have the skills and experience to bring your project from concept to launch, ensuring that it meets your specific needs and goals. 
             </p>
 
+            <div id="projects--itemContainer">
+
+                <div class="card-tray">
+                
+                    <div class="project-card">
+
+                        <a href="https://www.domegencreative.com">
+
+                        <img src="https://bl3302files.storage.live.com/y4md-sKcOxscO1MYarVkJEhkgw-sbkpQd92r73IbByQ5JGO_mrRA7o_CuOlZxjLgJsjhLqN59GISMRokYtT232a3v2BAEiKXI--towG_l6nxuOe7MCdCciLJpYIT-4a3Q8IJehgiEjoUAhgHTt7Rb5Co5fWJkOKYaUP2hz0Reoqi0oywJoMKz-mu8McSJU6hIDT?width=500&height=500&cropmode=none" alt="">
+
+                        </a>
+                        
+                    </div>
+
+                    <div class="project-card">
+
+                        <a href="https://bosawas.serlink.ml">
+
+                        <img src="https://bl3302files.storage.live.com/y4mAj7xpdIdlyb4rsXw-vONIutP1WktRsdpKr5qxoW0XrtQ8BeJsL4TTFE5NCD-VRqahMMWXia1bRNnc3fgCM99Y32aYvAAFjGQpgxH32WeBpE-EF8wzxhLIR_rNG29asCU3WvrUtU-q3TjgiBTVPjxFTFNIAGs1wWFnIkcmC2yLhqdlhof5wsqxX7g0A542TlU?width=500&height=500&cropmode=none" alt="">
+
+                        </a>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
     </div>
 
     </section>
@@ -2448,7 +2476,7 @@
 
         <div id="team--memberContainer">
 
-            <div class="card-tray">
+            <div class="card-tray--flex">
                 
                 <div class="member-card">
 

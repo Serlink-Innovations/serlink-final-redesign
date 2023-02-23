@@ -23,9 +23,18 @@
 .card-tray {
   width: 100%;
   display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   place-items: center;
+  margin-block: 2rem;
+}
+
+.card-tray--flex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .card {
@@ -72,8 +81,8 @@
 }
 
 .member-card {
-  max-width: 250px;
-  height: 100%;
+  width: 250px;
+  min-height: 100%;
   border-radius: 8px;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
     0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
@@ -133,6 +142,55 @@
       }
     }
   }
+}
+
+.project-card > * {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+
+.project-card {
+  max-width: 300px;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  display: grid;
+  isolation: isolate;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+  transform: translateY(0);
+
+  img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+  }
+}
+
+.project-card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #224c8d, $alpha: 0.5);
+  backdrop-filter: blur(10px);
+  display: grid;
+  position: absolute;
+  place-items: center;
+  transform: translateY(100%);
+  transition: ease-in-out 500ms;
+}
+
+.project-card:hover::after {
+  content: "View Project";
+  border-radius: inherit;
+  font-family: sans-serif;
+  font-size: clamp(1rem, 10vw, 1.2rem);
+  letter-spacing: 1px;
+  position: absolute;
+  transform: translateY(0);
+  text-transform: uppercase;
 }
 
 .member-card:hover > .member-info {

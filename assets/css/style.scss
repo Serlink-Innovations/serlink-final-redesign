@@ -27,14 +27,21 @@ body {
 .main-header {
   height: auto;
 
+  @media (max-width: 996px) {
+    .hero {
+      min-height: 400px !important;
+    }
+  }
+
   .hero {
     max-height: 800px;
     display: grid;
     place-items: center;
+    overflow: hidden;
 
     img {
       width: 100%;
-      max-height: inherit;
+      height: 100%;
       object-fit: cover;
       object-position: center top;
     }
@@ -200,6 +207,9 @@ section.services {
   }
 }
 
+/**
+* Section Projects
+**/
 section.projects {
   background-color: var(--secondary);
 
@@ -213,6 +223,10 @@ section.projects {
       letter-spacing: 1px;
       line-height: 1.5;
       text-align: center;
+    }
+
+    #projects--itemContainer {
+      width: 100%;
     }
   }
 }
@@ -266,7 +280,7 @@ section.team {
 
       img {
         padding-bottom: 1rem;
-        margin-left: -0.4rem;
+        margin-left: -0.6rem;
       }
 
       p {
@@ -275,12 +289,19 @@ section.team {
       }
     }
 
+    @media (min-width: 996px) {
+      .footer__nav {
+        align-items: center !important;
+        flex-wrap: nowrap !important;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto !important;
+      }
+    }
+
     .footer__nav {
-      align-items: center;
       display: flex;
-      flex-direction: column;
-      margin: auto;
-      justify-content: space-around;
+      flex-wrap: wrap;
 
       ul {
         display: block;
