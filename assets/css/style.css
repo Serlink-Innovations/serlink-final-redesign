@@ -3,6 +3,7 @@
   --secondary: #f0f8ff;
   --text-primary: #ffffff;
   --text-secondary: #000000;
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) {
@@ -670,6 +671,7 @@ section.team #team--memberContainer::-webkit-scrollbar {
   font-size: 0.95rem;
   font-family: Helvetica, sans-serif;
   flex-direction: column;
+  letter-spacing: 1px;
 }
 .footer #footer--contentConainter .company__Info img {
   padding-bottom: 1rem;
