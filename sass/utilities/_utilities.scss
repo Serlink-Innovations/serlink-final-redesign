@@ -285,16 +285,22 @@
 /**
 * Navigation
 **/
-.nav {
-  display: flex !important;
+@media (min-width: 996px) {
+  .nav {
+    display: flex !important;
+  }
 }
 
 @media (max-width: 996px) {
+  .show {
+    display: flex !important;
+  }
+
   .nav {
     align-items: center;
     background-color: #fff;
     color: #000000 !important;
-    display: none !important;
+    display: none;
     flex-direction: column !important;
     gap: 1rem;
 
@@ -309,7 +315,6 @@
 }
 
 .nav {
-  display: flex;
   grid-area: navBar;
 }
 
