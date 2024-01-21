@@ -30,6 +30,19 @@ body {
   @media (max-width: 996px) {
     .hero {
       min-height: 400px !important;
+
+      .hero--contentContainer {
+        display: grid;
+        gap: 1rem;
+
+        .hero--text {
+          padding-block: 0 !important;
+        }
+      }
+
+      .clients {
+        display: none !important;
+      }
     }
   }
 
@@ -55,9 +68,9 @@ body {
       }
 
       .hero--text {
-        font-size: clamp(0.8rem, 10vw, 1rem);
+        font-size: clamp(0.75rem, 3vw, 1rem);
         font-family: sans-serif;
-        line-height: 1.5;
+        line-height: 1.6;
         padding-block: 1rem;
       }
 
@@ -212,6 +225,10 @@ section.services {
 **/
 section.projects {
   background-color: var(--secondary);
+
+  .card-tray {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+  }
 
   .projects--content__container {
     align-items: center;

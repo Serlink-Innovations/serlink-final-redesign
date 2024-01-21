@@ -226,7 +226,7 @@ img {
   content: "View Project";
   border-radius: inherit;
   font-family: sans-serif;
-  font-size: clamp(1rem, 10vw, 1.2rem);
+  font-size: clamp(1rem, 3vw, 1.2rem);
   letter-spacing: 1px;
   position: absolute;
   transform: translateY(0);
@@ -298,7 +298,7 @@ img {
 * Logo
 **/
 .logo {
-  height: 100px;
+  height: clamp(75px, 5vw, 100px);
   display: flex;
 }
 .logo img {
@@ -312,6 +312,20 @@ img {
 /**
 * Navigation
 **/
+@media (max-width: 996px) {
+  .nav {
+    background-color: #fff;
+    color: #000000 !important;
+    display: none !important;
+    gap: 1rem;
+  }
+  .nav .nav-item {
+    padding: 1rem;
+  }
+  .nav .nav-item .nav-links {
+    color: currentColor !important;
+  }
+}
 .nav {
   display: flex;
 }
@@ -417,6 +431,16 @@ body {
   .main-header .hero {
     min-height: 400px !important;
   }
+  .main-header .hero .hero--contentContainer {
+    display: grid;
+    gap: 1rem;
+  }
+  .main-header .hero .hero--contentContainer .hero--text {
+    padding-block: 0 !important;
+  }
+  .main-header .hero .clients {
+    display: none !important;
+  }
 }
 .main-header .hero {
   max-height: 800px;
@@ -440,9 +464,9 @@ body {
   max-width: 55ch;
 }
 .main-header .hero .hero--contentContainer .hero--text {
-  font-size: clamp(0.8rem, 10vw, 1rem);
+  font-size: clamp(0.75rem, 3vw, 1rem);
   font-family: sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   padding-block: 1rem;
 }
 .main-header .hero .hero--contentContainer .hero--button__container {
@@ -579,6 +603,9 @@ section.services #servicesContainer .card:hover .card-footer > label {
 **/
 section.projects {
   background-color: var(--secondary);
+}
+section.projects .card-tray {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
 }
 section.projects .projects--content__container {
   align-items: center;
