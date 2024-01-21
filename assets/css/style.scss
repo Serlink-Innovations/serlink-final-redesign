@@ -29,11 +29,12 @@ body {
 
   @media (max-width: 996px) {
     .hero {
-      min-height: 400px !important;
+      display: block;
 
       .hero--contentContainer {
         display: grid;
         gap: 1rem;
+        margin-block: 5rem;
 
         .hero--text {
           padding-block: 0 !important;
@@ -47,7 +48,7 @@ body {
   }
 
   .hero {
-    max-height: 800px;
+    //max-height: 800px;
     display: grid;
     place-items: center;
     overflow: hidden;
