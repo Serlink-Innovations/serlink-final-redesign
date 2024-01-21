@@ -382,8 +382,10 @@ textarea {
   border: none;
   border: 2px solid rgba($color: #ffffff00, $alpha: 1);
   border-bottom: 2px solid rgba($color: #224c8d, $alpha: 0.4);
+  font-size: clamp(12px, 3vw, 16px);
   outline: none;
   padding: 0.6rem;
+  letter-spacing: 1px;
 }
 
 input {
