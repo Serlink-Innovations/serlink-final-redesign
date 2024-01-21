@@ -16,8 +16,8 @@ html {
 
 body {
   min-height: 100%;
-  display: grid;
-  grid-auto-columns: auto 1fr auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .body-wrapper {
@@ -160,6 +160,7 @@ section.team {
   form {
     display: inherit;
     gap: 1rem;
+    padding: 1rem;
   }
 }
 
