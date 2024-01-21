@@ -266,6 +266,10 @@
 /**
 * Logo
 **/
+.logo--container {
+  grid-area: logo;
+}
+
 .logo {
   height: clamp(75px, 8vw, 100px);
   display: flex;
@@ -283,9 +287,11 @@
 **/
 @media (max-width: 996px) {
   .nav {
+    align-items: center;
     background-color: #fff;
     color: #000000 !important;
     display: none !important;
+    flex-direction: column !important;
     gap: 1rem;
 
     .nav-item {
@@ -300,6 +306,7 @@
 
 .nav {
   display: flex;
+  grid-area: navBar;
 }
 
 .nav-item {

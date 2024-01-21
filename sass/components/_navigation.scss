@@ -3,10 +3,39 @@
     align-items: center;
     display: flex !important;
     justify-content: space-between;
+
+    .navToggle {
+      display: none !important;
+    }
   }
+}
+
+.navbar {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "logo navToggle"
+    "navBar navBar"
+  ;
 }
 
 .navigation {
   width: 100%;
   position: absolute;
+
+  .navToggle {
+    width: max-content;
+    height: max-content;
+    border: none;
+    background-color: transparent;
+    color: var(--text-secondary);
+    padding: 0.6em;
+    grid-area: navToggle;
+
+    svg {
+      width: 35px;
+      height: 35px;
+    }
+  }
 }

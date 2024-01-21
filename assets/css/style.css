@@ -13,10 +13,35 @@
     display: flex !important;
     justify-content: space-between;
   }
+  .navbar .navToggle {
+    display: none !important;
+  }
 }
+.navbar {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "logo navToggle" "navBar navBar";
+}
+
 .navigation {
   width: 100%;
   position: absolute;
+}
+.navigation .navToggle {
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border: none;
+  background-color: transparent;
+  color: var(--text-secondary);
+  padding: 0.6em;
+  grid-area: navToggle;
+}
+.navigation .navToggle svg {
+  width: 35px;
+  height: 35px;
 }
 
 html {
@@ -300,6 +325,10 @@ img {
 /**
 * Logo
 **/
+.logo--container {
+  grid-area: logo;
+}
+
 .logo {
   height: clamp(75px, 8vw, 100px);
   display: flex;
@@ -317,9 +346,11 @@ img {
 **/
 @media (max-width: 996px) {
   .nav {
+    align-items: center;
     background-color: #fff;
     color: #000000 !important;
     display: none !important;
+    flex-direction: column !important;
     gap: 1rem;
   }
   .nav .nav-item {
@@ -331,6 +362,7 @@ img {
 }
 .nav {
   display: flex;
+  grid-area: navBar;
 }
 
 .nav-item {
