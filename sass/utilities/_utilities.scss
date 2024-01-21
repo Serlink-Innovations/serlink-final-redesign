@@ -30,11 +30,8 @@
 }
 
 .card-tray--flex {
-  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
-  justify-content: space-evenly;
 }
 
 .card {
@@ -81,17 +78,17 @@
 }
 
 .member-card {
-  width: 250px;
-  min-height: 100%;
+  min-width: 15rem;
+  height: 350px;
   border-radius: 8px;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
     0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   position: relative;
   overflow: hidden;
+  aspect-ratio: 1/1;
 
   img {
-    width: 100%;
-    height: 100%;
+    width: inherit;
   }
 
   .member-info {
@@ -144,7 +141,7 @@
   }
 }
 
-.project-card > * {
+.project-card>* {
   grid-column: 1/-1;
   grid-row: 1/-1;
 }
@@ -193,7 +190,7 @@
   text-transform: uppercase;
 }
 
-.member-card:hover > .member-info {
+.member-card:hover>.member-info {
   cursor: pointer;
   transform: translateY(0%) translateY(0px);
   position: absolute;
@@ -214,16 +211,19 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
