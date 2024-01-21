@@ -16,6 +16,8 @@ html {
 
 body {
   min-height: 100%;
+  display: grid;
+  grid-auto-columns: auto 1fr auto;
 }
 
 .body-wrapper {
@@ -143,6 +145,21 @@ section.team {
 
   .section-title {
     margin-block: 2rem;
+  }
+}
+
+/**
+* Section Contact
+**/
+.contact--form {
+  max-width: 55ch;
+  display: grid;
+  margin-inline: auto;
+  margin-top: 8rem;
+
+  form {
+    display: inherit;
+    gap: 1rem;
   }
 }
 
@@ -337,7 +354,7 @@ section.team {
           padding: 0.5rem;
 
           a {
-            color: currentColor;
+            color: var(--text-primary);
             font-family: Helvetica, sans-serif;
             text-decoration: none;
           }
@@ -381,7 +398,7 @@ section.team {
 
   #copyright {
     background-color: var(--primary);
-    color: var(--text-primary);
+    color: var(--text-secondary);
     padding: 1rem;
     font-weight: bold;
     font-family: sans-serif;
