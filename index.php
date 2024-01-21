@@ -177,104 +177,97 @@
     </section>
 
     <section class="services container" id="services">
-
         <p class="bold center display-3 section-title">Our Services</p>
 
         <div id="servicesContainer">
-
             <h3 class="display-3">What We Do</h3>
 
             <p id="servicesHeaderText">
-                We specialize in providing a full range of IT services and solutions to meet the unique needs of
-                your business. From custom software development and network design to system maintenance and
-                support, we have the
-                skills and experience to help you succeed. Our team of professionals is dedicated to delivering
-                top-quality results, on time and on budget.
+                We specialize in providing a full range of IT services and
+                solutions to meet the unique needs of your business. From custom
+                software development and network design to system maintenance and
+                support, we have the skills and experience to help you succeed.
+                Our team of professionals is dedicated to delivering top-quality
+                results, on time and on budget.
             </p>
 
             <div class="card-tray">
-
                 <div class="card">
-
                     <div class="card-header">
-                        <svg enable-background="new 0 0 1024 1024" id="Website" version="1.1" viewBox="0 0 1024 1024"
-                            xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Background">
-                                <linearGradient gradientTransform="matrix(0.9397 0.342 0.342 -0.9397 275.869 765.6678)"
-                                    gradientUnits="userSpaceOnUse" id="bg_1_" x1="464.3252" x2="-194.0465" y1="-73.2012"
-                                    y2="711.4601">
-                                    <stop offset="0" style="stop-color:#2B3990"></stop>
-                                    <stop offset="0.1544" style="stop-color:#2B4296"></stop>
-                                    <stop offset="0.4063" style="stop-color:#2A5AA8"></stop>
-                                    <stop offset="0.7222" style="stop-color:#2882C4"></stop>
-                                    <stop offset="1" style="stop-color:#27AAE1"></stop>
-                                </linearGradient>
-                                <circle cx="512.001" cy="512" fill="url(#bg_1_)" id="bg" r="512"></circle>
-                            </g>
+                        <svg enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512"
+                            xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="256" cy="256" r="198.58" fill="#C7E0F5" />
                             <path
-                                d="M512,214.419c-164.35,0-297.581,133.231-297.581,297.581  c0,164.35,133.231,297.581,297.581,297.581S809.581,676.35,809.581,512C809.581,347.65,676.35,214.419,512,214.419z   M736.257,386.927c10.568,18.882,18.661,39.007,24.121,59.966H660.331c-3.699-20.362-9.134-40.442-16.337-59.966H736.257z   M632.869,554.772l-28.023-85.423l17.881-7.904l19.932,66.516l15.438-42.472h19.678l15.438,42.472l19.93-66.516l17.88,7.904  L703,554.772l-17.604,7.781l-17.461-58.277l-17.462,58.277L632.869,554.772z M634.964,577.104  c-3.991,20.33-9.854,40.334-17.625,59.695h-92.88v-59.695H634.964z M693.496,330.504c9.871,9.869,18.82,20.411,26.843,31.505  h-86.636c-17.049-37.16-40.803-71.752-71.262-101.759C611.776,270.029,657.132,294.138,693.496,330.504z M524.459,259.527  c35.06,29.154,62.229,64.197,81.509,102.482h-81.509V259.527z M524.459,386.927h92.77c7.825,19.446,13.727,39.542,17.735,59.966  H524.459V386.927z M499.541,259.84v102.169h-81.133C437.618,323.861,464.663,288.932,499.541,259.84z M389.41,446.894  c4.01-20.424,9.91-40.52,17.734-59.966h92.396v59.966H389.41z M419.154,469.35l-28.022,85.423l-17.604,7.781l-17.461-58.277  l-17.462,58.277l-17.604-7.781L292.98,469.35l17.88-7.904l19.93,66.516l15.438-42.472h19.678l15.438,42.472l19.931-66.516  L419.154,469.35z M330.504,330.504c36.477-36.478,82.002-60.619,131.515-70.34c-30.501,30.027-54.281,64.649-71.347,101.845h-87.011  C311.684,350.915,320.634,340.373,330.504,330.504z M287.743,386.927h92.638c-7.204,19.523-12.639,39.604-16.337,59.966h-100.42  C269.082,425.934,277.175,405.81,287.743,386.927z M287.592,636.801c-10.493-18.804-18.535-38.835-23.968-59.694h100.42  c3.681,20.269,9.082,40.257,16.235,59.694H287.592z M330.504,693.496c-9.951-9.95-18.967-20.583-27.04-31.777h87.085  c17.072,37.297,40.895,72.018,71.469,102.116C412.506,754.115,366.98,729.974,330.504,693.496z M499.541,764.16  c-34.961-29.161-62.053-64.188-81.271-102.441h81.271V764.16z M499.541,636.801h-92.506c-7.771-19.361-13.634-39.366-17.624-59.694  h110.13V636.801z M511.855,504.276l-17.463,58.277l-17.603-7.781l-28.022-85.423l17.882-7.904l19.93,66.516l15.437-42.472h19.679  l15.438,42.472l19.929-66.516l17.882,7.904l-28.022,85.423l-17.603,7.781L511.855,504.276z M524.459,764.473V661.719h81.646  C586.818,700.11,559.604,735.25,524.459,764.473z M693.496,693.496c-36.364,36.366-81.72,60.475-131.053,70.253  c30.532-30.08,54.326-64.77,71.383-102.03h86.71C712.463,672.913,703.447,683.546,693.496,693.496z M736.408,636.801h-92.313  c7.154-19.438,12.556-39.427,16.236-59.694h100.045C754.943,597.965,746.901,617.997,736.408,636.801z"
-                                fill="#FFFFFF" id="Website_1_"></path>
+                                d="M486,230.21v51.57c0,23.76-16.29,43.911-38.26,49.82c-4.25,1.141-8.71,1.75-13.31,1.75H77.56   c-4.84,0-9.53-0.68-13.98-1.939C41.95,325.27,26,305.3,26,281.78v-51.57c0-23.76,16.29-43.91,38.25-49.82   c4.25-1.14,8.71-1.75,13.31-1.75h356.87c4.6,0,9.06,0.61,13.31,1.75C469.71,186.3,486,206.45,486,230.21z"
+                                fill="#547DBF" />
+                            <path
+                                d="m162.1 227.39-11.917 26.793-8.739-16.828c-2.15-4.14-6.428-6.738-11.093-6.738s-8.943 2.599-11.093 6.738l-8.74 16.828-11.917-26.793c-2.805-6.308-10.194-9.147-16.501-6.341-6.308 2.805-9.147 10.193-6.341 16.501l22.466 50.512c1.951 4.387 6.244 7.269 11.043 7.414 0.127 4e-3 0.253 6e-3 0.38 6e-3 4.654 0 8.937-2.59 11.091-6.738l9.611-18.506 9.611 18.506c2.213 4.261 6.66 6.872 11.471 6.732 4.8-0.146 9.092-3.027 11.043-7.414l22.466-50.512c2.806-6.308-0.033-13.696-6.341-16.501-6.307-2.809-13.694 0.033-16.5 6.341z"
+                                fill="#F0F0F1" />
+                            <path
+                                d="m287.74 227.39-11.917 26.793-8.74-16.828c-2.15-4.14-6.427-6.738-11.093-6.738s-8.943 2.599-11.093 6.738l-8.739 16.828-11.917-26.793c-2.805-6.308-10.193-9.15-16.501-6.341-6.308 2.805-9.147 10.193-6.341 16.501l22.466 50.512c1.951 4.387 6.243 7.269 11.043 7.414 4.8 0.126 9.258-2.472 11.471-6.732l9.611-18.506 9.611 18.506c2.155 4.148 6.437 6.738 11.091 6.738 0.126 0 0.253-2e-3 0.38-6e-3 4.8-0.146 9.092-3.027 11.043-7.414l22.466-50.512c2.806-6.308-0.033-13.696-6.341-16.501-6.305-2.805-13.694 0.034-16.5 6.341z"
+                                fill="#F0F0F1" />
+                            <path
+                                d="m429.89 221.05c-6.309-2.809-13.695 0.033-16.501 6.341l-11.917 26.793-8.739-16.828c-2.15-4.14-6.428-6.738-11.093-6.738s-8.943 2.599-11.093 6.738l-8.739 16.828-11.917-26.793c-2.805-6.308-10.193-9.15-16.501-6.341-6.308 2.805-9.147 10.193-6.341 16.501l22.466 50.512c1.951 4.387 6.243 7.269 11.043 7.414 4.797 0.126 9.258-2.472 11.471-6.732l9.611-18.506 9.611 18.506c2.155 4.148 6.438 6.738 11.092 6.738 0.126 0 0.253-2e-3 0.38-6e-3 4.8-0.146 9.092-3.027 11.043-7.414l22.466-50.512c2.805-6.308-0.034-13.696-6.342-16.501z"
+                                fill="#F0F0F1" />
+                            <path
+                                d="m446.83 338.3c-32.9 76.19-107.75 125.42-190.72 125.47-0.04 0-0.07 0.011-0.11 0.011-0.05 0-0.09-0.011-0.14-0.011-83.64-0.05-158.72-49.85-191.31-126.89-0.76-1.79-1.06-3.649-0.97-5.47 4.45 1.26 9.14 1.939 13.98 1.939h12.79c22.15 47.45 63.01 82.311 111.59 97.29-21.02-19.489-43.59-49.37-56.67-93.76-0.35-1.18-0.51-2.36-0.51-3.53h25.57c10.64 33.99 28.7 62.04 53.71 83.391 7.08 6.05 13.78 10.7 19.46 14.18v-97.57h25v97.57c5.66-3.479 12.36-8.13 19.45-14.18 25.01-21.36 43.07-49.391 53.71-83.391h25.57c0 1.17-0.16 2.36-0.51 3.54-13.07 44.351-35.62 74.221-56.62 93.71 48.52-15.01 89.4-49.869 111.55-97.25h12.78c4.6 0 9.06-0.609 13.31-1.75 0.31 2.201 0.04 4.512-0.91 6.701z"
+                                fill="#547DBF" />
+                            <path
+                                d="m447.74 180.39c-4.25-1.14-8.71-1.75-13.31-1.75h-12.78c-22.15-47.38-63.03-82.23-111.55-97.25 21 19.49 43.55 49.36 56.62 93.72 0.35 1.18 0.51 2.36 0.51 3.53h-25.57c-10.64-34-28.7-62.03-53.71-83.39-7.08-6.04-13.78-10.69-19.45-14.17v97.56h-25v-97.56c-5.67 3.48-12.38 8.13-19.46 14.17-25.01 21.36-43.07 49.39-53.71 83.39h-25.57c0-1.17 0.16-2.35 0.51-3.53 13.07-44.36 35.62-74.23 56.62-93.72-48.52 15.02-89.4 49.86-111.54 97.25h-12.79c-4.6 0-9.06 0.61-13.31 1.75-0.31-2.2-0.04-4.5 0.91-6.69 32.91-76.23 107.82-125.48 190.84-125.48 83.01 0 157.92 49.25 190.83 125.47 0.95 2.19 1.22 4.5 0.91 6.7z"
+                                fill="#547DBF" />
                         </svg>
 
-                        <h3 class="bold">
-                            Bootstrap CSS and Vanilla CSS
-                        </h3>
-
+                        <h3 class="bold">Web Development and Programming</h3>
                     </div>
 
                     <div class="card-body">
-
                         <p>
-                            We offer expert Bootstrap and Vanilla CSS development services to bring your web
-                            projects to life.
+                            We offer expert Web Design services to bring your web
+                            projects to life. Making your dream into a reality.
                         </p>
-
                     </div>
 
                     <div class="card-footer">
                         <label for="">01</label>
                     </div>
-
                 </div>
 
                 <div class="card">
-
                     <div class="card-header">
-                        <svg id="Layer_1" style="enable-background:new 0 0 50 50;" version="1.1" viewBox="0 0 50 50"
+                        <svg id="Layer_1" style="enable-background: new 0 0 50 50" version="1.1" viewBox="0 0 50 50"
                             xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <style type="text/css">
                             .st0 {
-                                fill: #B7C5FD;
+                                fill: #b7c5fd;
                             }
 
                             .st1 {
-                                fill: #9AADFD;
+                                fill: #9aadfd;
                             }
 
                             .st2 {
-                                fill: #FFFFFF;
+                                fill: #ffffff;
                             }
 
                             .st3 {
-                                fill: #3955D1;
+                                fill: #3955d1;
                             }
 
                             .st4 {
-                                fill: #4466FB;
+                                fill: #4466fb;
                             }
 
                             .st5 {
-                                fill: #AABAFD;
+                                fill: #aabafd;
                             }
 
                             .st6 {
-                                fill: #798FFE;
+                                fill: #798ffe;
                             }
 
                             .st7 {
-                                fill: #6BB5FB;
+                                fill: #6bb5fb;
                             }
 
                             .st8 {
@@ -282,7 +275,7 @@
                             }
 
                             .st9 {
-                                fill: #1B2A4F;
+                                fill: #1b2a4f;
                             }
 
                             .st10 {
@@ -290,31 +283,31 @@
                             }
 
                             .st11 {
-                                fill: #384E85;
+                                fill: #384e85;
                             }
 
                             .st12 {
-                                fill: #2E4277;
+                                fill: #2e4277;
                             }
 
                             .st13 {
-                                fill: #D9DDF6;
+                                fill: #d9ddf6;
                             }
 
                             .st14 {
-                                fill: #535D88;
+                                fill: #535d88;
                             }
 
                             .st15 {
-                                fill: #2B3C67;
+                                fill: #2b3c67;
                             }
 
                             .st16 {
-                                fill: #8FCCFF;
+                                fill: #8fccff;
                             }
 
                             .st17 {
-                                fill: #8CA1FD;
+                                fill: #8ca1fd;
                             }
 
                             .st18 {
@@ -323,7 +316,7 @@
 
                             .st19 {
                                 opacity: 0.3;
-                                fill: #4466FB;
+                                fill: #4466fb;
                             }
 
                             .st20 {
@@ -398,2042 +391,313 @@
                             </g>
                         </svg>
 
-                        <h3 class="bold">
-                            Professional Network Designs
-                        </h3>
-
+                        <h3 class="bold">Professional Network Designs</h3>
                     </div>
 
                     <div class="card-body">
-
                         <p>
-                            From small business networks to enterprise-level solutions, we have the expertise to
-                            meet your networking needs.
+                            From small business networks to enterprise-level solutions,
+                            we have the expertise to meet your networking needs.
                         </p>
-
                     </div>
 
                     <div class="card-footer">
                         <label for="">02</label>
                     </div>
-
                 </div>
 
                 <div class="card">
-
                     <div class="card-header">
-                        <svg id="Layer_1" style="enable-background:new 0 0 50 50;" version="1.1" viewBox="0 0 50 50"
-                            xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg enable-background="new 0 0 50 50" version="1.1" viewBox="0 0 50 50" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg">
                             <style type="text/css">
                             .st0 {
-                                fill: none;
+                                fill: #b7c5fd;
                             }
 
                             .st1 {
-                                fill: #AABAFD;
+                                fill: #9aadfd;
                             }
 
                             .st2 {
-                                fill: #B7C5FD;
+                                fill: #ffffff;
                             }
 
                             .st3 {
-                                fill: #1B2A4F;
+                                fill: #3955d1;
                             }
 
                             .st4 {
-                                fill: #798FFE;
+                                fill: #4466fb;
                             }
 
                             .st5 {
-                                fill: #9AADFD;
+                                fill: #aabafd;
                             }
 
                             .st6 {
-                                fill: #FFFFFF;
+                                fill: #798ffe;
                             }
 
                             .st7 {
-                                fill: #3955D1;
+                                fill: #6bb5fb;
                             }
 
                             .st8 {
-                                fill: #4466FB;
-                            }
-
-                            .st9 {
-                                fill: #6BB5FB;
-                            }
-
-                            .st10 {
                                 enable-background: new;
                             }
 
-                            .st11 {
-                                fill: url(#SVGID_1_);
+                            .st9 {
+                                fill: #1b2a4f;
                             }
 
-                            .st12 {
-                                fill: url(#SVGID_2_);
-                            }
-
-                            .st13 {
+                            .st10 {
                                 fill: url(#);
                             }
 
+                            .st11 {
+                                fill: #384e85;
+                            }
+
+                            .st12 {
+                                fill: #2e4277;
+                            }
+
+                            .st13 {
+                                fill: #d9ddf6;
+                            }
+
                             .st14 {
-                                fill: url(#SVGID_3_);
+                                fill: #535d88;
                             }
 
                             .st15 {
-                                fill: url(#SVGID_4_);
+                                fill: #2b3c67;
                             }
 
                             .st16 {
-                                fill: url(#SVGID_5_);
+                                fill: #8fccff;
                             }
 
                             .st17 {
-                                fill: url(#SVGID_6_);
+                                fill: #8ca1fd;
                             }
 
                             .st18 {
-                                fill: url(#SVGID_7_);
+                                opacity: 0.3;
                             }
 
                             .st19 {
-                                fill: #384E85;
+                                opacity: 0.3;
+                                fill: #4466fb;
                             }
 
                             .st20 {
-                                fill: #2E4277;
-                            }
-
-                            .st21 {
-                                fill: #D9DDF6;
-                            }
-
-                            .st22 {
-                                fill: url(#SVGID_8_);
-                            }
-
-                            .st23 {
-                                fill: url(#SVGID_9_);
-                            }
-
-                            .st24 {
-                                fill: url(#SVGID_10_);
-                            }
-
-                            .st25 {
-                                fill: url(#SVGID_11_);
-                            }
-
-                            .st26 {
-                                fill: url(#SVGID_12_);
-                            }
-
-                            .st27 {
-                                fill: url(#SVGID_13_);
-                            }
-
-                            .st28 {
-                                fill: url(#SVGID_14_);
-                            }
-
-                            .st29 {
-                                fill: url(#SVGID_15_);
-                            }
-
-                            .st30 {
-                                fill: url(#SVGID_16_);
-                            }
-
-                            .st31 {
-                                fill: url(#SVGID_17_);
-                            }
-
-                            .st32 {
-                                fill: url(#SVGID_18_);
-                            }
-
-                            .st33 {
-                                fill: url(#SVGID_19_);
-                            }
-
-                            .st34 {
-                                fill: url(#SVGID_20_);
-                            }
-
-                            .st35 {
-                                fill: url(#SVGID_21_);
-                            }
-
-                            .st36 {
-                                fill: url(#SVGID_22_);
-                            }
-
-                            .st37 {
-                                fill: url(#SVGID_23_);
-                            }
-
-                            .st38 {
-                                fill: url(#SVGID_24_);
-                            }
-
-                            .st39 {
-                                fill: url(#SVGID_25_);
-                            }
-
-                            .st40 {
-                                fill: url(#SVGID_26_);
-                            }
-
-                            .st41 {
-                                fill: url(#SVGID_27_);
-                            }
-
-                            .st42 {
-                                fill: url(#SVGID_28_);
-                            }
-
-                            .st43 {
-                                fill: url(#SVGID_29_);
-                            }
-
-                            .st44 {
-                                fill: url(#SVGID_30_);
-                            }
-
-                            .st45 {
-                                fill: url(#SVGID_31_);
-                            }
-
-                            .st46 {
-                                fill: url(#SVGID_32_);
-                            }
-
-                            .st47 {
-                                fill: url(#SVGID_33_);
-                            }
-
-                            .st48 {
-                                fill: url(#SVGID_34_);
-                            }
-
-                            .st49 {
-                                fill: url(#SVGID_35_);
-                            }
-
-                            .st50 {
-                                fill: url(#SVGID_36_);
-                            }
-
-                            .st51 {
-                                fill: url(#SVGID_37_);
-                            }
-
-                            .st52 {
-                                fill: url(#SVGID_38_);
-                            }
-
-                            .st53 {
-                                fill: url(#SVGID_39_);
-                            }
-
-                            .st54 {
-                                fill: url(#SVGID_40_);
-                            }
-
-                            .st55 {
-                                fill: url(#SVGID_41_);
-                            }
-
-                            .st56 {
-                                fill: url(#SVGID_42_);
-                            }
-
-                            .st57 {
-                                fill: url(#SVGID_43_);
-                            }
-
-                            .st58 {
-                                fill: url(#SVGID_44_);
-                            }
-
-                            .st59 {
-                                fill: url(#SVGID_45_);
-                            }
-
-                            .st60 {
-                                fill: url(#SVGID_46_);
-                            }
-
-                            .st61 {
-                                fill: url(#SVGID_47_);
-                            }
-
-                            .st62 {
-                                fill: url(#SVGID_48_);
-                            }
-
-                            .st63 {
-                                fill: url(#SVGID_49_);
-                            }
-
-                            .st64 {
-                                fill: url(#SVGID_50_);
-                            }
-
-                            .st65 {
-                                fill: url(#SVGID_51_);
-                            }
-
-                            .st66 {
-                                fill: url(#SVGID_52_);
-                            }
-
-                            .st67 {
-                                fill: url(#SVGID_53_);
-                            }
-
-                            .st68 {
-                                fill: url(#SVGID_54_);
-                            }
-
-                            .st69 {
-                                fill: url(#SVGID_55_);
-                            }
-
-                            .st70 {
-                                fill: url(#SVGID_56_);
-                            }
-
-                            .st71 {
-                                fill: url(#SVGID_57_);
-                            }
-
-                            .st72 {
-                                fill: url(#SVGID_58_);
-                            }
-
-                            .st73 {
-                                fill: url(#SVGID_59_);
-                            }
-
-                            .st74 {
-                                fill: url(#SVGID_60_);
-                            }
-
-                            .st75 {
-                                fill: url(#SVGID_61_);
-                            }
-
-                            .st76 {
-                                fill: url(#SVGID_62_);
-                            }
-
-                            .st77 {
-                                fill: url(#SVGID_63_);
-                            }
-
-                            .st78 {
-                                fill: url(#SVGID_64_);
-                            }
-
-                            .st79 {
-                                fill: url(#SVGID_65_);
-                            }
-
-                            .st80 {
-                                fill: url(#SVGID_66_);
-                            }
-
-                            .st81 {
-                                fill: url(#SVGID_67_);
-                            }
-
-                            .st82 {
-                                fill: url(#SVGID_68_);
-                            }
-
-                            .st83 {
-                                fill: url(#SVGID_69_);
-                            }
-
-                            .st84 {
-                                fill: url(#SVGID_70_);
-                            }
-
-                            .st85 {
-                                fill: url(#SVGID_71_);
-                            }
-
-                            .st86 {
-                                fill: url(#SVGID_72_);
-                            }
-
-                            .st87 {
-                                fill: url(#SVGID_73_);
-                            }
-
-                            .st88 {
-                                fill: url(#SVGID_74_);
-                            }
-
-                            .st89 {
-                                fill: url(#SVGID_75_);
-                            }
-
-                            .st90 {
-                                fill: url(#SVGID_76_);
-                            }
-
-                            .st91 {
-                                fill: url(#SVGID_77_);
-                            }
-
-                            .st92 {
-                                fill: url(#SVGID_78_);
-                            }
-
-                            .st93 {
-                                fill: url(#SVGID_79_);
-                            }
-
-                            .st94 {
-                                fill: url(#SVGID_80_);
-                            }
-
-                            .st95 {
-                                fill: url(#SVGID_81_);
-                            }
-
-                            .st96 {
-                                fill: url(#SVGID_82_);
-                            }
-
-                            .st97 {
-                                fill: url(#SVGID_83_);
-                            }
-
-                            .st98 {
-                                fill: url(#SVGID_84_);
-                            }
-
-                            .st99 {
-                                fill: url(#SVGID_85_);
-                            }
-
-                            .st100 {
-                                fill: url(#SVGID_86_);
-                            }
-
-                            .st101 {
-                                fill: url(#SVGID_87_);
-                            }
-
-                            .st102 {
-                                fill: url(#SVGID_88_);
-                            }
-
-                            .st103 {
-                                fill: url(#SVGID_89_);
-                            }
-
-                            .st104 {
-                                fill: url(#SVGID_90_);
-                            }
-
-                            .st105 {
-                                fill: url(#SVGID_91_);
-                            }
-
-                            .st106 {
-                                fill: url(#SVGID_92_);
-                            }
-
-                            .st107 {
-                                fill: url(#SVGID_93_);
-                            }
-
-                            .st108 {
-                                fill: url(#SVGID_94_);
-                            }
-
-                            .st109 {
-                                fill: url(#SVGID_95_);
-                            }
-
-                            .st110 {
-                                fill: url(#SVGID_96_);
-                            }
-
-                            .st111 {
-                                fill: url(#SVGID_97_);
-                            }
-
-                            .st112 {
-                                fill: url(#SVGID_98_);
-                            }
-
-                            .st113 {
-                                fill: url(#SVGID_99_);
-                            }
-
-                            .st114 {
-                                fill: #535D88;
-                            }
-
-                            .st115 {
-                                fill: url(#SVGID_100_);
-                            }
-
-                            .st116 {
-                                fill: url(#SVGID_101_);
-                            }
-
-                            .st117 {
-                                fill: url(#SVGID_102_);
-                            }
-
-                            .st118 {
-                                fill: url(#SVGID_103_);
-                            }
-
-                            .st119 {
-                                fill: url(#SVGID_104_);
-                            }
-
-                            .st120 {
-                                fill: url(#SVGID_105_);
-                            }
-
-                            .st121 {
-                                fill: url(#SVGID_106_);
-                            }
-
-                            .st122 {
-                                fill: url(#SVGID_107_);
-                            }
-
-                            .st123 {
-                                fill: url(#SVGID_108_);
-                            }
-
-                            .st124 {
-                                fill: url(#SVGID_109_);
-                            }
-
-                            .st125 {
-                                fill: url(#SVGID_110_);
-                            }
-
-                            .st126 {
-                                fill: url(#SVGID_111_);
-                            }
-
-                            .st127 {
-                                fill: url(#SVGID_112_);
-                            }
-
-                            .st128 {
-                                fill: url(#SVGID_113_);
-                            }
-
-                            .st129 {
-                                fill: url(#SVGID_114_);
-                            }
-
-                            .st130 {
-                                fill: url(#SVGID_115_);
-                            }
-
-                            .st131 {
-                                fill: #2B3C67;
-                            }
-
-                            .st132 {
-                                fill: #8FCCFF;
-                            }
-
-                            .st133 {
-                                fill: #8CA1FD;
-                            }
-
-                            .st134 {
-                                opacity: 0.3;
-                            }
-
-                            .st135 {
-                                fill: url(#SVGID_116_);
-                            }
-
-                            .st136 {
-                                fill: url(#SVGID_117_);
-                            }
-
-                            .st137 {
-                                fill: url(#SVGID_118_);
-                            }
-
-                            .st138 {
-                                fill: url(#SVGID_119_);
-                            }
-
-                            .st139 {
-                                fill: url(#SVGID_120_);
-                            }
-
-                            .st140 {
-                                fill: url(#SVGID_121_);
-                            }
-
-                            .st141 {
-                                fill: url(#SVGID_122_);
-                            }
-
-                            .st142 {
-                                fill: url(#SVGID_123_);
-                            }
-
-                            .st143 {
-                                fill: url(#SVGID_124_);
-                            }
-
-                            .st144 {
-                                opacity: 0.3;
-                                fill: #4466FB;
-                            }
-
-                            .st145 {
-                                fill: url(#SVGID_125_);
-                            }
-
-                            .st146 {
-                                fill: url(#SVGID_126_);
-                            }
-
-                            .st147 {
-                                fill: url(#SVGID_127_);
-                            }
-
-                            .st148 {
-                                fill: url(#SVGID_128_);
-                            }
-
-                            .st149 {
-                                fill: url(#SVGID_129_);
-                            }
-
-                            .st150 {
-                                fill: url(#SVGID_130_);
-                            }
-
-                            .st151 {
-                                fill: url(#SVGID_131_);
-                            }
-
-                            .st152 {
-                                fill: url(#SVGID_132_);
-                            }
-
-                            .st153 {
-                                fill: url(#SVGID_133_);
-                            }
-
-                            .st154 {
-                                fill: url(#SVGID_134_);
-                            }
-
-                            .st155 {
-                                fill: url(#SVGID_135_);
-                            }
-
-                            .st156 {
-                                fill: url(#SVGID_136_);
-                            }
-
-                            .st157 {
-                                fill: url(#SVGID_137_);
-                            }
-
-                            .st158 {
-                                fill: url(#SVGID_138_);
-                            }
-
-                            .st159 {
-                                fill: url(#SVGID_139_);
-                            }
-
-                            .st160 {
-                                fill: url(#SVGID_140_);
-                            }
-
-                            .st161 {
-                                fill: url(#SVGID_141_);
-                            }
-
-                            .st162 {
-                                fill: url(#SVGID_142_);
-                            }
-
-                            .st163 {
-                                fill: url(#SVGID_143_);
-                            }
-
-                            .st164 {
-                                fill: url(#SVGID_144_);
-                            }
-
-                            .st165 {
-                                fill: url(#SVGID_145_);
-                            }
-
-                            .st166 {
-                                fill: url(#SVGID_146_);
-                            }
-
-                            .st167 {
-                                fill: url(#SVGID_147_);
-                            }
-
-                            .st168 {
-                                fill: url(#SVGID_148_);
-                            }
-
-                            .st169 {
-                                fill: url(#SVGID_149_);
-                            }
-
-                            .st170 {
-                                fill: url(#SVGID_150_);
-                            }
-
-                            .st171 {
-                                fill: url(#SVGID_151_);
-                            }
-
-                            .st172 {
-                                fill: url(#SVGID_152_);
-                            }
-
-                            .st173 {
                                 opacity: 0.2;
                             }
-
-                            .st174 {
-                                fill: url(#SVGID_153_);
-                            }
-
-                            .st175 {
-                                fill: url(#SVGID_154_);
-                            }
-
-                            .st176 {
-                                fill: url(#SVGID_155_);
-                            }
-
-                            .st177 {
-                                fill: url(#SVGID_156_);
-                            }
-
-                            .st178 {
-                                fill: url(#SVGID_157_);
-                            }
-
-                            .st179 {
-                                fill: url(#SVGID_158_);
-                            }
-
-                            .st180 {
-                                fill: url(#SVGID_159_);
-                            }
-
-                            .st181 {
-                                fill: url(#SVGID_160_);
-                            }
-
-                            .st182 {
-                                fill: url(#SVGID_161_);
-                            }
-
-                            .st183 {
-                                fill: url(#SVGID_162_);
-                            }
-
-                            .st184 {
-                                fill: url(#SVGID_163_);
-                            }
-
-                            .st185 {
-                                fill: url(#SVGID_164_);
-                            }
-
-                            .st186 {
-                                fill: url(#SVGID_165_);
-                            }
-
-                            .st187 {
-                                fill: url(#SVGID_166_);
-                            }
-
-                            .st188 {
-                                fill: url(#SVGID_167_);
-                            }
-
-                            .st189 {
-                                fill: url(#SVGID_168_);
-                            }
-
-                            .st190 {
-                                fill: url(#SVGID_169_);
-                            }
-
-                            .st191 {
-                                fill: url(#SVGID_170_);
-                            }
-
-                            .st192 {
-                                fill: url(#SVGID_171_);
-                            }
-
-                            .st193 {
-                                fill: url(#SVGID_172_);
-                            }
-
-                            .st194 {
-                                fill: url(#SVGID_173_);
-                            }
-
-                            .st195 {
-                                fill: url(#SVGID_174_);
-                            }
-
-                            .st196 {
-                                fill: url(#SVGID_175_);
-                            }
-
-                            .st197 {
-                                fill: url(#SVGID_176_);
-                            }
-
-                            .st198 {
-                                fill: url(#SVGID_177_);
-                            }
-
-                            .st199 {
-                                fill: url(#SVGID_178_);
-                            }
-
-                            .st200 {
-                                fill: url(#SVGID_179_);
-                            }
-
-                            .st201 {
-                                fill: url(#SVGID_180_);
-                            }
-
-                            .st202 {
-                                fill: url(#SVGID_181_);
-                            }
-
-                            .st203 {
-                                fill: url(#SVGID_182_);
-                            }
-
-                            .st204 {
-                                fill: url(#SVGID_183_);
-                            }
-
-                            .st205 {
-                                fill: url(#SVGID_184_);
-                            }
-
-                            .st206 {
-                                fill: url(#SVGID_185_);
-                            }
-
-                            .st207 {
-                                fill: url(#SVGID_186_);
-                            }
-
-                            .st208 {
-                                fill: url(#SVGID_187_);
-                            }
-
-                            .st209 {
-                                fill: url(#SVGID_188_);
-                            }
-
-                            .st210 {
-                                fill: url(#SVGID_189_);
-                            }
-
-                            .st211 {
-                                fill: url(#SVGID_190_);
-                            }
-
-                            .st212 {
-                                fill: url(#SVGID_191_);
-                            }
-
-                            .st213 {
-                                fill: url(#SVGID_192_);
-                            }
-
-                            .st214 {
-                                fill: url(#SVGID_193_);
-                            }
-
-                            .st215 {
-                                fill: url(#SVGID_194_);
-                            }
-
-                            .st216 {
-                                fill: url(#SVGID_195_);
-                            }
-
-                            .st217 {
-                                fill: url(#SVGID_196_);
-                            }
-
-                            .st218 {
-                                fill: url(#SVGID_197_);
-                            }
-
-                            .st219 {
-                                fill: url(#SVGID_198_);
-                            }
-
-                            .st220 {
-                                fill: url(#SVGID_199_);
-                            }
-
-                            .st221 {
-                                fill: url(#SVGID_200_);
-                            }
-
-                            .st222 {
-                                fill: url(#SVGID_201_);
-                            }
-
-                            .st223 {
-                                fill: url(#SVGID_202_);
-                            }
-
-                            .st224 {
-                                fill: url(#SVGID_203_);
-                            }
-
-                            .st225 {
-                                fill: url(#SVGID_204_);
-                            }
-
-                            .st226 {
-                                fill: url(#SVGID_205_);
-                            }
-
-                            .st227 {
-                                fill: url(#SVGID_206_);
-                            }
-
-                            .st228 {
-                                fill: url(#SVGID_207_);
-                            }
-
-                            .st229 {
-                                fill: url(#SVGID_208_);
-                            }
-
-                            .st230 {
-                                fill: url(#SVGID_209_);
-                            }
-
-                            .st231 {
-                                fill: url(#SVGID_210_);
-                            }
-
-                            .st232 {
-                                fill: url(#SVGID_211_);
-                            }
-
-                            .st233 {
-                                fill: url(#SVGID_212_);
-                            }
-
-                            .st234 {
-                                fill: url(#SVGID_213_);
-                            }
-
-                            .st235 {
-                                fill: url(#SVGID_214_);
-                            }
-
-                            .st236 {
-                                fill: url(#SVGID_215_);
-                            }
-
-                            .st237 {
-                                fill: url(#SVGID_216_);
-                            }
-
-                            .st238 {
-                                fill: url(#SVGID_217_);
-                            }
-
-                            .st239 {
-                                fill: url(#SVGID_218_);
-                            }
-
-                            .st240 {
-                                fill: url(#SVGID_219_);
-                            }
-
-                            .st241 {
-                                fill: url(#SVGID_220_);
-                            }
-
-                            .st242 {
-                                fill: url(#SVGID_221_);
-                            }
-
-                            .st243 {
-                                fill: url(#SVGID_222_);
-                            }
-
-                            .st244 {
-                                fill: url(#SVGID_223_);
-                            }
-
-                            .st245 {
-                                fill: url(#SVGID_224_);
-                            }
-
-                            .st246 {
-                                fill: url(#SVGID_225_);
-                            }
-
-                            .st247 {
-                                fill: url(#SVGID_226_);
-                            }
-
-                            .st248 {
-                                fill: url(#SVGID_227_);
-                            }
-
-                            .st249 {
-                                fill: url(#SVGID_228_);
-                            }
-
-                            .st250 {
-                                fill: url(#SVGID_229_);
-                            }
-
-                            .st251 {
-                                fill: url(#SVGID_230_);
-                            }
-
-                            .st252 {
-                                fill: url(#SVGID_231_);
-                            }
                             </style>
-                            <pattern height="32.25219" id="Unnamed_Pattern_11" patternUnits="userSpaceOnUse"
-                                style="overflow:visible;" viewBox="0 -32.25219 32.25219 32.25219" width="32.25219">
-                                <g>
-                                    <rect class="st0" height="32.25219" width="32.25219" y="-32.25219"></rect>
-                                    <g>
-                                        <rect class="st1" height="32.25219" width="32.25219" x="0" y="-32.25219">
-                                        </rect>
-                                    </g>
-                                </g>
-                            </pattern>
-                            <pattern height="32.25219" id="Unnamed_Pattern_12" patternUnits="userSpaceOnUse"
-                                style="overflow:visible;" viewBox="0 -32.25219 32.25219 32.25219" width="32.25219">
-                                <g>
-                                    <rect class="st0" height="32.25219" width="32.25219" y="-32.25219"></rect>
-                                    <g>
-                                        <rect class="st2" height="32.25219" width="32.25219" x="0" y="-32.25219">
-                                        </rect>
-                                    </g>
-                                </g>
-                            </pattern>
-                            <pattern height="32.25219" id="Unnamed_Pattern_17" patternUnits="userSpaceOnUse"
-                                style="overflow:visible;" viewBox="0 -32.25219 32.25219 32.25219" width="32.25219">
-                                <g>
-                                    <rect class="st0" height="32.25219" width="32.25219" y="-32.25219"></rect>
-                                    <g>
-                                        <rect class="st3" height="32.25219" width="32.25219" x="0" y="-32.25219">
-                                        </rect>
-                                    </g>
-                                </g>
-                            </pattern>
-                            <pattern height="32.25219" id="Unnamed_Pattern_8" patternUnits="userSpaceOnUse"
-                                style="overflow:visible;" viewBox="0 -32.25219 32.25219 32.25219" width="32.25219">
-                                <g>
-                                    <rect class="st0" height="32.25219" width="32.25219" y="-32.25219"></rect>
-                                    <g>
-                                        <rect class="st4" height="32.25219" width="32.25219" x="0" y="-32.25219">
-                                        </rect>
-                                    </g>
-                                </g>
-                            </pattern>
-                            <g>
-                                <g>
-                                    <g>
-                                        <g>
-                                            <path class="st20"
-                                                d="M41.13838,34.52532l-0.0111,5.13829c-0.00106,0.44381-0.2927,0.88655-0.87493,1.2247l-13.07856,7.60072      c-1.17239,0.68103-3.07918,0.68156-4.25896,0L9.75067,40.88884c-0.59386-0.34289-0.89025-0.79251-0.8892-1.24213l0.0111-5.13565      c0,0.44803,14.05282,8.83968,14.05282,8.83968c1.18032,0.68103,3.0871,0.68103,4.25949-0.00053      C27.18488,43.35021,41.13732,34.9686,41.13838,34.52532z">
-                                            </path>
-                                            <path class="st19"
-                                                d="M21.76243,43.91474L10.8618,37.62093c-0.28178-0.16269-0.63402,0.04066-0.63402,0.36604v1.70024      c0,0.30202,0.16113,0.58109,0.42268,0.73209l10.90062,6.29336c0.28178,0.16269,0.63401-0.04067,0.63401-0.36605v-1.6998      C22.18509,44.34482,22.02398,44.06575,21.76243,43.91474z">
-                                            </path>
-                                            <g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_1_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.60742 -7787.85449)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st11"
-                                                            d="M27.83607,44.35159c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C28.08719,44.33585,27.97453,44.27165,27.83607,44.35159z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_2_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.60742 -7788.7207)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st12"
-                                                            d="M27.97476,46.19764l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.02781c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C27.86329,46.55061,27.97521,46.35675,27.97476,46.19764z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_3_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.57275 -7787.5957)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st14"
-                                                            d="M38.60205,38.09484c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C38.85318,38.0791,38.74052,38.0149,38.60205,38.09484z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_4_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.57275 -7788.75293)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st15"
-                                                            d="M38.74075,39.9409l-0.005-1.76465c-0.00013-0.04741-0.0103-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.02781c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C38.62928,40.29386,38.7412,40.1,38.74075,39.9409z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_5_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8137.11084 -7786.70215)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st16"
-                                                            d="M37.06406,38.98866c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C37.31518,38.97292,37.20252,38.90872,37.06406,38.98866z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_6_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8137.11084 -7787.85938)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st17"
-                                                            d="M37.20275,40.83472l-0.005-1.76465c-0.00013-0.04741-0.0103-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05613-0.18163,0.04113-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C37.09127,41.18768,37.2032,40.99382,37.20275,40.83472z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_7_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8138.64893 -7785.80811)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st18"
-                                                            d="M35.52606,39.88248c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C35.77718,39.86674,35.66452,39.80254,35.52606,39.88248z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_8_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8138.64893 -7786.96533)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st22"
-                                                            d="M35.66475,41.72854l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.1591-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05613-0.18163,0.04113-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C35.55328,42.0815,35.6652,41.88765,35.66475,41.72854z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_9_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8140.18701 -7784.91455)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st23"
-                                                            d="M33.98806,40.77631c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C34.23918,40.76056,34.12653,40.69636,33.98806,40.77631z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_10_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8140.18701 -7786.07178)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st24"
-                                                            d="M34.12675,42.62236l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05613-0.18163,0.04113-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C34.01528,42.97533,34.1272,42.78147,34.12675,42.62236z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_11_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8141.7251 -7784.02051)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st25"
-                                                            d="M32.45006,41.67013c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C32.70118,41.65438,32.58853,41.59018,32.45006,41.67013z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_12_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8141.7251 -7785.17773)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st26"
-                                                            d="M32.58875,43.51618l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10563-0.03416         C32.47728,43.86914,32.5892,43.67529,32.58875,43.51618z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_13_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8143.2627 -7783.12695)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st27"
-                                                            d="M30.91206,42.56395c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C31.16318,42.54821,31.05053,42.484,30.91206,42.56395z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_14_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8143.2627 -7784.28418)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st28"
-                                                            d="M31.05075,44.41l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C30.93928,44.76297,31.0512,44.56911,31.05075,44.41z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_15_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8144.80078 -7782.23291)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st29"
-                                                            d="M29.37406,43.45777c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C29.62519,43.44202,29.51253,43.37783,29.37406,43.45777z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_16_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8144.80078 -7783.39014)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st30"
-                                                            d="M29.51276,45.30382l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.02781c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C29.40128,45.65679,29.51321,45.46293,29.51276,45.30382z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                            <path class="st19"
-                                                d="M40.24947,33.28313c1.17997,0.68126,1.18618,1.78553,0.01388,2.4668l-13.07866,7.60049      c-1.1723,0.68127-3.07907,0.68147-4.25904,0.00022L9.76142,35.75027c-1.17997-0.68126-1.18585-1.78573-0.01355-2.467      l13.07866-7.60049c1.1723-0.68127,3.07874-0.68128,4.25871-0.00002L40.24947,33.28313z">
-                                            </path>
-                                            <g>
-                                                <path class="st20"
-                                                    d="M35.13433,33.97103c0.52195,0.30135,0.52435,0.78969,0.00579,1.09105l-9.15985,5.32312       c-0.51856,0.30135-1.36164,0.30156-1.88359,0.00021l-9.21977-5.32304c-0.52195-0.30135-0.5247-0.7899-0.00614-1.09125       l9.15985-5.32312c0.51856-0.30135,1.36199-0.30136,1.88395-0.00001L35.13433,33.97103z">
-                                                </path>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <pattern id="SVGID_17_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7469.59229)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st31"
-                                                        d="M11.57185,39.0591c0.25806,0.14899,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21033,0.41629-0.46838,0.26731c-0.25806-0.14899-0.46652-0.51006-0.46568-0.80659        C11.10397,39.02929,11.3138,38.91011,11.57185,39.0591z">
-                                                    </path>
-                                                </g>
-                                                <g>
-                                                    <pattern id="SVGID_18_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7469.59229)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st32"
-                                                        d="M13.07633,39.92771c0.25772,0.1488,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21066,0.4161-0.46839,0.2673c-0.25805-0.14899-0.46652-0.51006-0.46568-0.80658        C12.60846,39.8979,12.81828,39.77872,13.07633,39.92771z">
-                                                    </path>
-                                                </g>
-                                                <g>
-                                                    <pattern id="SVGID_19_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7469.59229)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st33"
-                                                        d="M14.58082,40.79632c0.25772,0.1488,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21067,0.4161-0.46839,0.2673c-0.25806-0.14899-0.46652-0.51006-0.46568-0.80658        C14.11294,40.76652,14.32276,40.64733,14.58082,40.79632z">
-                                                    </path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                    <polygon class="st9"
-                                        points="20.82406,44.29959 17.33488,42.28501 17.33488,43.60646 20.82406,45.62094   ">
-                                    </polygon>
-                                </g>
-                                <g>
-                                    <g>
-                                        <pattern id="SVGID_20_"
-                                            patternTransform="matrix(0.05026 0 0 0.05026 -7629.47119 -7494.01416)"
-                                            xlink:href="#Unnamed_Pattern_17"></pattern>
-                                        <path class="st34"
-                                            d="M40.35224,28.48818l-0.01056,4.88799c-0.001,0.42218-0.27844,0.84337-0.83231,1.16504l-12.44147,7.23047     c-1.11528,0.64786-2.92918,0.64836-4.0515,0l-12.5229-7.22997c-0.56493-0.32619-0.84689-0.75391-0.84589-1.18163l0.01056-4.88548     c0,0.42621,0.28196,0.85342,0.84538,1.17861l12.5229,7.23047c1.12282,0.64786,2.93672,0.64786,4.052-0.0005l12.44148-7.22997     C40.0738,29.33105,40.35123,28.90987,40.35224,28.48818z">
-                                        </path>
-                                        <g>
-                                            <path class="st20"
-                                                d="M41.13838,26.46805l-0.0111,5.13829c-0.00106,0.4438-0.2927,0.88655-0.87493,1.2247l-13.07856,7.60072      c-1.17239,0.68103-3.07918,0.68156-4.25896,0L9.75067,32.83156c-0.59386-0.34289-0.89025-0.79251-0.8892-1.24213l0.0111-5.13565      c0,0.44803,14.05282,8.83968,14.05282,8.83968c1.18032,0.68103,3.0871,0.68103,4.25949-0.00053      C27.18488,35.29294,41.13732,26.91133,41.13838,26.46805z">
-                                            </path>
-                                            <path class="st19"
-                                                d="M21.76243,35.85747L10.8618,29.56366c-0.28178-0.16269-0.63402,0.04066-0.63402,0.36604v1.70024      c0,0.30202,0.16113,0.58109,0.42268,0.73209l10.90062,6.29336c0.28178,0.16269,0.63401-0.04067,0.63401-0.36605v-1.6998      C22.18509,36.28754,22.02398,36.00848,21.76243,35.85747z">
-                                            </path>
-                                            <g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_21_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.60742 -7795.91211)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st35"
-                                                            d="M27.83607,36.29432c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C28.08719,36.27857,27.97453,36.21437,27.83607,36.29432z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_22_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.60742 -7796.77783)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st36"
-                                                            d="M27.97476,38.14037l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.02781c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C27.86329,38.49334,27.97521,38.29948,27.97476,38.14037z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_23_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.57275 -7795.65332)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st37"
-                                                            d="M38.60205,30.03757c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C38.85318,30.02183,38.74052,29.95763,38.60205,30.03757z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_24_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.57275 -7796.81055)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st38"
-                                                            d="M38.74075,31.88362l-0.005-1.76465c-0.00013-0.04741-0.0103-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.02781c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C38.62928,32.23659,38.7412,32.04273,38.74075,31.88362z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_25_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8137.11084 -7794.75928)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st39"
-                                                            d="M37.06406,30.93139c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C37.31518,30.91565,37.20252,30.85145,37.06406,30.93139z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_26_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8137.11084 -7795.9165)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st40"
-                                                            d="M37.20275,32.77744l-0.005-1.76465c-0.00013-0.04741-0.0103-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.02781c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C37.09127,33.13041,37.2032,32.93655,37.20275,32.77744z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_27_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8138.64893 -7793.86523)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st41"
-                                                            d="M35.52606,31.82521c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C35.77718,31.80947,35.66452,31.74527,35.52606,31.82521z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_28_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8138.64893 -7795.02295)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st42"
-                                                            d="M35.66475,33.67126l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05613-0.18163,0.04113-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C35.55328,34.02423,35.6652,33.83037,35.66475,33.67126z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_29_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8140.18701 -7792.97168)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st43"
-                                                            d="M33.98806,32.71903c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C34.23918,32.70329,34.12653,32.63909,33.98806,32.71903z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_30_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8140.18701 -7794.12891)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st44"
-                                                            d="M34.12675,34.56509l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05613-0.18163,0.04113-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C34.01528,34.91805,34.1272,34.72419,34.12675,34.56509z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_31_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8141.7251 -7792.07764)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st45"
-                                                            d="M32.45006,33.61285c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C32.70118,33.59711,32.58853,33.53291,32.45006,33.61285z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_32_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8141.7251 -7793.23486)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st46"
-                                                            d="M32.58875,35.4589l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04113-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10563-0.03416         C32.47728,35.81187,32.5892,35.61801,32.58875,35.4589z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_33_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8143.2627 -7791.18408)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st47"
-                                                            d="M30.91206,34.50668c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C31.16318,34.49093,31.05053,34.42673,30.91206,34.50668z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_34_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8143.2627 -7792.34131)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st48"
-                                                            d="M31.05075,36.35273l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C30.93928,36.70569,31.0512,36.51183,31.05075,36.35273z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_35_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8144.80078 -7790.29004)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st49"
-                                                            d="M29.37406,35.4005c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C29.62519,35.38475,29.51253,35.32055,29.37406,35.4005z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_36_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8144.80078 -7791.44727)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st50"
-                                                            d="M29.51276,37.24655l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C29.40128,37.59951,29.51321,37.40565,29.51276,37.24655z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                            <path class="st19"
-                                                d="M40.24947,25.22585c1.17997,0.68126,1.18618,1.78554,0.01388,2.4668l-13.07866,7.60049      c-1.1723,0.68127-3.07907,0.68147-4.25904,0.00022L9.76142,27.69299c-1.17997-0.68126-1.18585-1.78573-0.01355-2.467      l13.07866-7.60049c1.1723-0.68127,3.07874-0.68128,4.25871-0.00002L40.24947,25.22585z">
-                                            </path>
-                                            <g>
-                                                <path class="st20"
-                                                    d="M35.13433,25.91375c0.52195,0.30135,0.52435,0.78969,0.00579,1.09105l-9.15985,5.32312       c-0.51856,0.30135-1.36164,0.30156-1.88359,0.00021l-9.21977-5.32303c-0.52195-0.30135-0.5247-0.7899-0.00614-1.09125       l9.15985-5.32312c0.51856-0.30136,1.36199-0.30136,1.88395-0.00001L35.13433,25.91375z">
-                                                </path>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <pattern id="SVGID_37_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7477.6499)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st51"
-                                                        d="M11.57185,31.00182c0.25806,0.14899,0.46618,0.50947,0.46534,0.806        c-0.00084,0.29653-0.21033,0.41629-0.46838,0.26731c-0.25806-0.14899-0.46652-0.51006-0.46568-0.80659        C11.10397,30.97202,11.3138,30.85283,11.57185,31.00182z">
-                                                    </path>
-                                                </g>
-                                                <g>
-                                                    <pattern id="SVGID_38_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7477.6499)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st52"
-                                                        d="M13.07633,31.87043c0.25772,0.1488,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21066,0.4161-0.46839,0.2673c-0.25805-0.14899-0.46652-0.51006-0.46568-0.80658        C12.60846,31.84063,12.81828,31.72145,13.07633,31.87043z">
-                                                    </path>
-                                                </g>
-                                                <g>
-                                                    <pattern id="SVGID_39_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7477.6499)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st53"
-                                                        d="M14.58082,32.73905c0.25772,0.1488,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21067,0.4161-0.46839,0.2673c-0.25806-0.14899-0.46652-0.51006-0.46568-0.80658        C14.11294,32.70924,14.32276,32.59006,14.58082,32.73905z">
-                                                    </path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                    <polygon class="st9"
-                                        points="20.82406,36.24232 17.33488,34.22774 17.33488,35.54919 20.82406,37.56367   ">
-                                    </polygon>
-                                </g>
-                                <g>
-                                    <g>
-                                        <pattern id="SVGID_40_"
-                                            patternTransform="matrix(0.05026 0 0 0.05026 -7629.47119 -7502.07129)"
-                                            xlink:href="#Unnamed_Pattern_17"></pattern>
-                                        <path class="st54"
-                                            d="M40.35224,20.43091l-0.01056,4.88799c-0.001,0.42219-0.27844,0.84337-0.83231,1.16504l-12.44147,7.23047     c-1.11528,0.64786-2.92918,0.64836-4.0515,0l-12.5229-7.22997c-0.56493-0.32619-0.84689-0.75391-0.84589-1.18162l0.01056-4.88548     c0,0.42621,0.28196,0.85342,0.84538,1.17861l12.5229,7.23047c1.12282,0.64786,2.93672,0.64786,4.052-0.0005l12.44148-7.22997     C40.0738,21.27378,40.35123,20.85259,40.35224,20.43091z">
-                                        </path>
-                                        <g>
-                                            <path class="st20"
-                                                d="M41.13838,18.41078l-0.0111,5.13829c-0.00106,0.4438-0.2927,0.88655-0.87493,1.2247l-13.07856,7.60072      c-1.17239,0.68103-3.07918,0.68156-4.25896,0L9.75067,24.77429c-0.59386-0.34289-0.89025-0.79251-0.8892-1.24213l0.0111-5.13565      c0,0.44803,14.05282,8.83968,14.05282,8.83968c1.18032,0.68103,3.0871,0.68103,4.25949-0.00053      C27.18488,27.23566,41.13732,18.85405,41.13838,18.41078z">
-                                            </path>
-                                            <path class="st19"
-                                                d="M21.76243,27.80019l-10.90063-6.2938c-0.28178-0.16269-0.63402,0.04066-0.63402,0.36604v1.70024      c0,0.30202,0.16113,0.58109,0.42268,0.73209l10.90062,6.29336c0.28178,0.16269,0.63401-0.04067,0.63401-0.36605v-1.6998      C22.18509,28.23027,22.02398,27.9512,21.76243,27.80019z">
-                                            </path>
-                                            <g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_41_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.60742 -7803.96924)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st55"
-                                                            d="M27.83607,28.23704c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C28.08719,28.2213,27.97453,28.1571,27.83607,28.23704z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_42_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.60742 -7804.83545)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st56"
-                                                            d="M27.97476,30.0831l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C27.86329,30.43606,27.97521,30.2422,27.97476,30.0831z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_43_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.57275 -7803.71045)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st57"
-                                                            d="M38.60205,21.9803c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C38.85318,21.96455,38.74052,21.90035,38.60205,21.9803z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_44_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.57275 -7804.86768)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st58"
-                                                            d="M38.74075,23.82635l-0.005-1.76465c-0.00013-0.04741-0.0103-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C38.62928,24.17931,38.7412,23.98545,38.74075,23.82635z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_45_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8137.11084 -7802.81641)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st59"
-                                                            d="M37.06406,22.87412c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C37.31518,22.85837,37.20252,22.79417,37.06406,22.87412z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_46_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8137.11084 -7803.97363)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st60"
-                                                            d="M37.20275,24.72017l-0.005-1.76465c-0.00013-0.04741-0.0103-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C37.09127,25.07314,37.2032,24.87928,37.20275,24.72017z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_47_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8138.64893 -7801.92285)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st61"
-                                                            d="M35.52606,23.76794c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C35.77718,23.75219,35.66452,23.68799,35.52606,23.76794z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_48_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8138.64893 -7803.08008)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st62"
-                                                            d="M35.66475,25.61399l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C35.55328,25.96696,35.6652,25.7731,35.66475,25.61399z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_49_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8140.18701 -7801.02881)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st63"
-                                                            d="M33.98806,24.66176c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C34.23918,24.64602,34.12653,24.58182,33.98806,24.66176z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_50_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8140.18701 -7802.18604)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st64"
-                                                            d="M34.12675,26.50781l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C34.01528,26.86078,34.1272,26.66692,34.12675,26.50781z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_51_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8141.7251 -7800.13525)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st65"
-                                                            d="M32.45006,25.55558c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C32.70118,25.53984,32.58853,25.47564,32.45006,25.55558z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_52_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8141.7251 -7801.29248)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st66"
-                                                            d="M32.58875,27.40163l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10563-0.03416         C32.47728,27.7546,32.5892,27.56074,32.58875,27.40163z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_53_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8143.2627 -7799.24121)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st67"
-                                                            d="M30.91206,26.4494c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C31.16318,26.43366,31.05053,26.36946,30.91206,26.4494z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_54_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8143.2627 -7800.39844)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st68"
-                                                            d="M31.05075,28.29545l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C30.93928,28.64842,31.0512,28.45456,31.05075,28.29545z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_55_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8144.80078 -7798.34766)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st69"
-                                                            d="M29.37406,27.34322c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C29.62519,27.32748,29.51253,27.26328,29.37406,27.34322z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_56_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8144.80078 -7799.50488)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st70"
-                                                            d="M29.51276,29.18927l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C29.40128,29.54224,29.51321,29.34838,29.51276,29.18927z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                            <path class="st19"
-                                                d="M40.24947,17.16858c1.17997,0.68126,1.18618,1.78554,0.01388,2.4668l-13.07866,7.60049      c-1.1723,0.68127-3.07907,0.68147-4.25904,0.00021L9.76142,19.63572c-1.17997-0.68126-1.18585-1.78573-0.01355-2.467      l13.07866-7.60049c1.1723-0.68127,3.07874-0.68128,4.25871-0.00002L40.24947,17.16858z">
-                                            </path>
-                                            <g>
-                                                <path class="st20"
-                                                    d="M35.13433,17.85648c0.52195,0.30135,0.52435,0.78969,0.00579,1.09105l-9.15985,5.32312       c-0.51856,0.30136-1.36164,0.30156-1.88359,0.00021l-9.21977-5.32304c-0.52195-0.30135-0.5247-0.7899-0.00614-1.09125       l9.15985-5.32312c0.51856-0.30135,1.36199-0.30136,1.88395-0.00001L35.13433,17.85648z">
-                                                </path>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <pattern id="SVGID_57_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7485.70703)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st71"
-                                                        d="M11.57185,22.94455c0.25806,0.14899,0.46618,0.50947,0.46534,0.806        c-0.00084,0.29653-0.21033,0.41629-0.46838,0.26731c-0.25806-0.14899-0.46652-0.51006-0.46568-0.80659        C11.10397,22.91474,11.3138,22.79556,11.57185,22.94455z">
-                                                    </path>
-                                                </g>
-                                                <g>
-                                                    <pattern id="SVGID_58_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7485.70703)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st72"
-                                                        d="M13.07633,23.81316c0.25772,0.1488,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21066,0.4161-0.46839,0.2673c-0.25805-0.14898-0.46652-0.51006-0.46568-0.80658        C12.60846,23.78336,12.81828,23.66418,13.07633,23.81316z">
-                                                    </path>
-                                                </g>
-                                                <g>
-                                                    <pattern id="SVGID_59_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7485.70703)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st73"
-                                                        d="M14.58082,24.68177c0.25772,0.14879,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21067,0.4161-0.46839,0.2673c-0.25806-0.14899-0.46652-0.51006-0.46568-0.80658        C14.11294,24.65197,14.32276,24.53279,14.58082,24.68177z">
-                                                    </path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                    <polygon class="st9"
-                                        points="20.82406,28.18505 17.33488,26.17046 17.33488,27.49191 20.82406,29.5064   ">
-                                    </polygon>
-                                </g>
-                                <g>
-                                    <g>
-                                        <pattern id="SVGID_60_"
-                                            patternTransform="matrix(0.05026 0 0 0.05026 -7629.47119 -7510.12842)"
-                                            xlink:href="#Unnamed_Pattern_17"></pattern>
-                                        <path class="st74"
-                                            d="M40.35224,12.37363l-0.01056,4.88799c-0.001,0.42219-0.27844,0.84337-0.83231,1.16504l-12.44147,7.23047     c-1.11528,0.64786-2.92918,0.64836-4.0515,0l-12.5229-7.22997c-0.56493-0.32619-0.84689-0.75391-0.84589-1.18162l0.01056-4.88548     c0,0.42621,0.28196,0.85342,0.84538,1.17861l12.5229,7.23047c1.12282,0.64786,2.93672,0.64786,4.052-0.0005l12.44148-7.22997     C40.0738,13.2165,40.35123,12.79532,40.35224,12.37363z">
-                                        </path>
-                                        <g>
-                                            <path class="st20"
-                                                d="M41.13838,10.3535l-0.0111,5.13829c-0.00106,0.4438-0.2927,0.88655-0.87493,1.2247l-13.07856,7.60072      c-1.17239,0.68103-3.07918,0.68156-4.25896,0L9.75067,16.71702c-0.59386-0.34289-0.89025-0.79251-0.8892-1.24213l0.0111-5.13565      c0,0.44803,14.05282,8.83968,14.05282,8.83968c1.18032,0.68103,3.0871,0.68103,4.25949-0.00053      C27.18488,19.17839,41.13732,10.79678,41.13838,10.3535z">
-                                            </path>
-                                            <path class="st19"
-                                                d="M21.76243,19.74292L10.8618,13.44911c-0.28178-0.16269-0.63402,0.04066-0.63402,0.36604v1.70024      c0,0.30202,0.16113,0.58109,0.42268,0.73209l10.90062,6.29336c0.28178,0.16269,0.63401-0.04067,0.63401-0.36605V20.475      C22.18509,20.173,22.02398,19.89393,21.76243,19.74292z">
-                                            </path>
-                                            <g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_61_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.60742 -7812.02637)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st75"
-                                                            d="M27.83607,20.17977c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C28.08719,20.16403,27.97453,20.09983,27.83607,20.17977z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_62_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.60742 -7812.89258)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st76"
-                                                            d="M27.97476,22.02582l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C27.86329,22.37879,27.97521,22.18493,27.97476,22.02582z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_63_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.57275 -7811.76758)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st77"
-                                                            d="M38.60205,13.92302c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C38.85318,13.90728,38.74052,13.84308,38.60205,13.92302z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_64_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8135.57275 -7812.9248)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st78"
-                                                            d="M38.74075,15.76907l-0.005-1.76465c-0.00013-0.04741-0.0103-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C38.62928,16.12204,38.7412,15.92818,38.74075,15.76907z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_65_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8137.11084 -7810.87402)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st79"
-                                                            d="M37.06406,14.81684c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C37.31518,14.8011,37.20252,14.7369,37.06406,14.81684z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_66_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8137.11084 -7812.03125)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st80"
-                                                            d="M37.20275,16.6629l-0.005-1.76465c-0.00013-0.04741-0.0103-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C37.09127,17.01586,37.2032,16.822,37.20275,16.6629z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_67_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8138.64893 -7809.97998)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st81"
-                                                            d="M35.52606,15.71066c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C35.77718,15.69492,35.66452,15.63072,35.52606,15.71066z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_68_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8138.64893 -7811.13721)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st82"
-                                                            d="M35.66475,17.55672l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C35.55328,17.90968,35.6652,17.71582,35.66475,17.55672z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_69_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8140.18701 -7809.08643)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st83"
-                                                            d="M33.98806,16.60448c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C34.23918,16.58874,34.12653,16.52454,33.98806,16.60448z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_70_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8140.18701 -7810.24365)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st84"
-                                                            d="M34.12675,18.45054l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C34.01528,18.8035,34.1272,18.60964,34.12675,18.45054z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_71_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8141.7251 -7808.19238)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st85"
-                                                            d="M32.45006,17.49831c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.2233,0.25157,0.14336s0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C32.70118,17.48256,32.58853,17.41836,32.45006,17.49831z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_72_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8141.7251 -7809.34961)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st86"
-                                                            d="M32.58875,19.34436l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08585-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10563-0.03416         C32.47728,19.69732,32.5892,19.50347,32.58875,19.34436z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_73_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8143.2627 -7807.29834)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st87"
-                                                            d="M30.91206,18.39213c-0.13847,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C31.16318,18.37638,31.05053,18.31219,30.91206,18.39213z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_74_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8143.2627 -7808.45557)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st88"
-                                                            d="M31.05075,20.23818l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01239,0.10562-0.03416         C30.93928,20.59115,31.0512,20.39729,31.05075,20.23818z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <pattern id="SVGID_75_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8144.80078 -7806.40479)"
-                                                            xlink:href="#Unnamed_Pattern_8"></pattern>
-                                                        <path class="st89"
-                                                            d="M29.37406,19.28595c-0.13846,0.07994-0.25039,0.2738-0.24994,0.43291l0.005,1.76465         c0.00045,0.15911,0.11311,0.22331,0.25157,0.14336c0.13847-0.07994,0.25039-0.2738,0.24994-0.43291l-0.005-1.76465         C29.62519,19.2702,29.51253,19.20601,29.37406,19.28595z">
-                                                        </path>
-                                                    </g>
-                                                    <g>
-                                                        <pattern id="SVGID_76_"
-                                                            patternTransform="matrix(-0.01188 0 0 0.01188 -8144.80078 -7807.56201)"
-                                                            xlink:href="#Unnamed_Pattern_11"></pattern>
-                                                        <path class="st90"
-                                                            d="M29.51276,21.132l-0.005-1.76465c-0.00013-0.04741-0.01029-0.08631-0.02806-0.11556         c0.08586-0.00369,0.14562,0.06175,0.14595,0.17752l0.005,1.76465c0.00045,0.15911-0.11147,0.35297-0.24994,0.43291         c-0.09721,0.05612-0.18163,0.04112-0.22351-0.0278c0.03214-0.00138,0.06791-0.01238,0.10562-0.03416         C29.40128,21.48497,29.51321,21.29111,29.51276,21.132z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                            <path class="st19"
-                                                d="M40.24947,9.11131c1.17997,0.68126,1.18618,1.78553,0.01388,2.4668L27.18469,19.1786      c-1.1723,0.68127-3.07907,0.68147-4.25904,0.00022L9.76142,11.57844c-1.17997-0.68126-1.18585-1.78573-0.01355-2.467      l13.07866-7.60049c1.1723-0.68127,3.07874-0.68128,4.25871-0.00002L40.24947,9.11131z">
-                                            </path>
-                                            <g>
-                                                <path class="st20"
-                                                    d="M35.13433,9.7992c0.52195,0.30135,0.52435,0.78969,0.00579,1.09105l-9.15985,5.32312       c-0.51856,0.30136-1.36164,0.30156-1.88359,0.00021l-9.21977-5.32304c-0.52195-0.30135-0.5247-0.7899-0.00614-1.09125       l9.15985-5.32312c0.51856-0.30135,1.36199-0.30136,1.88395-0.00001L35.13433,9.7992z">
-                                                </path>
-                                            </g>
-                                            <g>
-                                                <g>
-                                                    <pattern id="SVGID_77_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7493.76416)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st91"
-                                                        d="M11.57185,14.88728c0.25806,0.14899,0.46618,0.50947,0.46534,0.806        c-0.00084,0.29653-0.21033,0.4163-0.46838,0.26731c-0.25806-0.14899-0.46652-0.51006-0.46568-0.80659        C11.10397,14.85747,11.3138,14.73829,11.57185,14.88728z">
-                                                    </path>
-                                                </g>
-                                                <g>
-                                                    <pattern id="SVGID_78_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7493.76416)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st92"
-                                                        d="M13.07633,15.75589c0.25772,0.1488,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21066,0.4161-0.46839,0.2673c-0.25805-0.14898-0.46652-0.51006-0.46568-0.80658        C12.60846,15.72608,12.81828,15.6069,13.07633,15.75589z">
-                                                    </path>
-                                                </g>
-                                                <g>
-                                                    <pattern id="SVGID_79_"
-                                                        patternTransform="matrix(0.05283 0 0 0.05283 -7612.17334 -7493.76416)"
-                                                        xlink:href="#Unnamed_Pattern_12"></pattern>
-                                                    <path class="st93"
-                                                        d="M14.58082,16.6245c0.25772,0.14879,0.46618,0.50948,0.46534,0.806        c-0.00084,0.29653-0.21067,0.4161-0.46839,0.2673c-0.25806-0.14899-0.46652-0.51006-0.46568-0.80658        C14.11294,16.5947,14.32276,16.47551,14.58082,16.6245z">
-                                                    </path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                    <polygon class="st9"
-                                        points="20.82406,20.12777 17.33488,18.11319 17.33488,19.43464 20.82406,21.44913   ">
-                                    </polygon>
-                                </g>
-                            </g>
+                            <polygon class="st12"
+                                points="13.69 11.819 13.618 42.778 12.574 43.385 11.775 39.011 12.647 12.036" />
+                            <path class="st11"
+                                d="m10.259 41.445 0.07199-30.958c-8.5e-4 0.30113 0.96989 0.67184 2.3162 1.5495l-0.07291 31.348c-1.3463-0.87764-2.3161-1.6386-2.3153-1.9398z" />
+                            <polygon class="st9" points="21.105 16.1 21.033 47.058 13.618 42.778 13.69 11.819" />
+                            <polygon class="st3" points="21.105 18.008 21.097 18.958 13.682 14.678 13.69 13.727" />
+                            <polygon class="st3" points="21.105 20.468 21.097 21.419 13.682 17.138 13.69 16.188" />
+                            <polygon class="st3" points="21.105 22.929 21.097 23.879 13.682 19.598 13.69 18.648" />
+                            <polygon class="st3" points="21.105 25.389 21.097 26.339 13.682 22.059 13.69 21.108" />
+                            <polygon class="st3" points="21.105 27.849 21.097 28.8 13.682 24.519 13.69 23.569" />
+                            <polygon class="st12" points="19.205 29.272 19.2 29.869 14.935 27.407 14.941 26.81" />
+                            <polygon class="st12" points="19.205 30.677 19.2 31.275 14.935 28.813 14.941 28.215" />
+                            <polygon class="st12" points="19.205 33.489 19.2 34.086 14.935 31.624 14.941 31.027" />
+                            <polygon class="st12" points="19.205 32.083 19.2 32.68 14.935 30.218 14.941 29.621" />
+                            <polygon class="st12" points="19.205 36.3 19.2 36.897 14.935 34.435 14.941 33.838" />
+                            <polygon class="st12" points="19.205 34.894 19.2 35.492 14.935 33.03 14.941 32.432" />
+                            <polygon class="st12" points="19.205 37.706 19.2 38.303 14.935 35.841 14.941 35.244" />
+                            <polygon class="st12" points="39.741 8.6192 39.669 39.577 23.515 48.965 23.276 17.744" />
+                            <path class="st11"
+                                d="m23.588 17.617-0.0729 31.348c-0.32465 0.18867-1.7937-0.41421-3.5193-1.3042l0.07199-30.958c1.7256 0.88997 3.1956 1.1026 3.5202 0.91394z" />
+                            <polygon class="st4" points="13.69 13.727 13.682 14.678 12.638 15.285 12.646 14.334" />
+                            <polygon class="st4" points="13.69 16.188 13.682 17.138 12.638 17.745 12.646 16.795" />
+                            <polygon class="st4" points="13.69 18.648 13.682 19.598 12.638 20.205 12.646 19.255" />
+                            <polygon class="st4" points="13.69 21.108 13.682 22.059 12.638 22.666 12.646 21.715" />
+                            <polygon class="st4" points="13.69 23.569 13.682 24.519 12.638 25.126 12.646 24.176" />
+                            <path class="st7"
+                                d="m10.323 13.345 0.0081-0.95026c-8.5e-4 0.30113 0.96898 1.0621 2.3153 1.9397l-0.00811 0.95027c-1.3463-0.87765-2.3161-1.6386-2.3153-1.9398z" />
+                            <path class="st7"
+                                d="m10.323 15.805 0.0081-0.95026c-8.5e-4 0.30113 0.96898 1.0621 2.3153 1.9397l-0.00811 0.95027c-1.3463-0.87765-2.3161-1.6386-2.3153-1.9398z" />
+                            <path class="st7"
+                                d="m10.323 18.265 0.0081-0.95026c-8.5e-4 0.30113 0.96898 1.0621 2.3153 1.9397l-0.00811 0.95027c-1.3463-0.87764-2.3161-1.6386-2.3153-1.9398z" />
+                            <path class="st7"
+                                d="m10.323 20.726 0.0081-0.95026c-8.5e-4 0.30113 0.96898 1.0621 2.3153 1.9397l-0.00811 0.95027c-1.3463-0.87765-2.3161-1.6386-2.3153-1.9398z" />
+                            <path class="st7"
+                                d="m10.323 23.186 0.0081-0.95026c-8.5e-4 0.30113 0.96898 1.0621 2.3153 1.9397l-0.00811 0.95027c-1.3463-0.87765-2.3161-1.6386-2.3153-1.9398z" />
+                            <path class="st7"
+                                d="m23.587 19.915-8e-3 0.91519c-0.32465 0.18867-1.7938-0.37913-3.5194-1.2691l0.0081-0.95026c1.7256 0.88998 3.1947 1.4929 3.5194 1.3042z" />
+                            <path class="st7"
+                                d="m23.587 22.375-8e-3 0.91519c-0.32465 0.18867-1.7938-0.37913-3.5194-1.2691l0.0081-0.95026c1.7256 0.88998 3.1947 1.4929 3.5194 1.3042z" />
+                            <path class="st7"
+                                d="m23.587 24.836-8e-3 0.91519c-0.32465 0.18866-1.7938-0.37913-3.5194-1.2691l0.0081-0.95026c1.7256 0.88997 3.1947 1.4928 3.5194 1.3042z" />
+                            <path class="st7"
+                                d="m23.587 27.296-8e-3 0.91519c-0.32465 0.18866-1.7938-0.37913-3.5194-1.2691l0.0081-0.95026c1.7256 0.88998 3.1947 1.4929 3.5194 1.3042z" />
+                            <path class="st7"
+                                d="m23.587 29.756-8e-3 0.91519c-0.32465 0.18867-1.7938-0.37913-3.5194-1.2691l0.0081-0.95026c1.7256 0.88998 3.1947 1.4929 3.5194 1.3042z" />
+                            <polygon class="st9" points="38.574 38.475 38.152 38.717 38.14 35.656 38.562 35.414" />
+                            <polygon class="st9" points="37.777 38.933 37.352 39.177 37.339 36.116 37.765 35.872" />
+                            <polygon class="st9" points="36.977 39.392 36.555 39.634 36.542 36.573 36.964 36.331" />
+                            <polygon class="st9" points="36.18 39.85 35.758 40.092 35.745 37.031 36.167 36.789" />
+                            <polygon class="st9" points="35.383 40.308 34.958 40.552 34.945 37.491 35.371 37.247" />
+                            <polygon class="st9" points="31.108 42.756 30.686 42.998 30.673 39.936 31.095 39.694" />
+                            <polygon class="st9" points="30.311 43.213 29.885 43.457 29.873 40.396 30.298 40.152" />
+                            <polygon class="st9" points="29.51 43.673 29.088 43.915 29.076 40.854 29.498 40.612" />
+                            <polygon class="st9" points="28.714 44.131 28.292 44.373 28.279 41.312 28.701 41.07" />
+                            <polygon class="st9" points="27.917 44.589 27.491 44.833 27.478 41.772 27.904 41.528" />
+                            <polygon class="st9" points="38.574 32.819 38.152 33.061 38.14 30 38.562 29.758" />
+                            <polygon class="st9" points="37.777 33.277 37.352 33.521 37.339 30.46 37.765 30.216" />
+                            <polygon class="st9" points="36.977 33.737 36.555 33.978 36.542 30.917 36.964 30.675" />
+                            <polygon class="st9" points="36.18 34.194 35.758 34.436 35.745 31.375 36.167 31.133" />
+                            <polygon class="st9" points="35.383 34.652 34.958 34.896 34.945 31.835 35.371 31.591" />
+                            <polygon class="st9" points="31.108 37.1 30.686 37.342 30.673 34.28 31.095 34.039" />
+                            <polygon class="st9" points="30.311 37.557 29.885 37.801 29.873 34.74 30.298 34.496" />
+                            <polygon class="st9" points="29.51 38.017 29.088 38.259 29.076 35.198 29.498 34.956" />
+                            <polygon class="st9" points="28.714 38.475 28.292 38.717 28.279 35.656 28.701 35.414" />
+                            <polygon class="st9" points="27.917 38.933 27.491 39.177 27.478 36.116 27.904 35.872" />
+                            <path class="st11"
+                                d="m39.741 8.6192-16.155 9.3881c-0.32465 0.18866-1.7937-0.41421-3.5193-1.3042l1.0374-0.6029-7.4144-4.2807-1.0445 0.60699c-1.535-1.0007-2.5807-1.8497-2.256-2.0384l16.155-9.3881 13.197 7.6192z" />
                         </svg>
 
-                        <h3 class="bold">
-                            Server Deployment and Configuration
-                        </h3>
-
+                        <h3 class="bold">Server Deployment and Configuration</h3>
                     </div>
 
                     <div class="card-body">
-
                         <p>
-                            Our team offers expert server deployment and configuration services to ensure smooth
-                            and
-                            reliable operations.
+                            Our team offers expert server deployment and configuration
+                            services to ensure smooth and reliable operations.
                         </p>
-
                     </div>
 
                     <div class="card-footer">
                         <label for="">03</label>
                     </div>
-
                 </div>
 
                 <div class="card">
-
                     <div class="card-header">
-                        <svg height="100%"
-                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
-                            version="1.1" viewBox="0 0 128 128" width="100%" xml:space="preserve"
+                        <svg height="100%" style="
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                      stroke-linejoin: round;
+                      stroke-miterlimit: 2;
+                    " version="1.1" viewBox="0 0 128 128" width="100%" xml:space="preserve"
                             xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <rect height="128" id="toolbox-" style="fill:none;" width="128" x="0" y="0"></rect>
+                            <rect height="128" id="toolbox-" style="fill: none" width="128" x="0" y="0"></rect>
                             <g id="toolbox-1">
                                 <g transform="matrix(1,0,0,1,0,-1.21491)">
                                     <g transform="matrix(1,0,0,1,-2188.01,-2621.67)">
                                         <path
                                             d="M2240.62,2667.38L2240.62,2651.93C2240.62,2650.82 2241.06,2649.76 2241.85,2648.98C2242.63,2648.19 2243.69,2647.75 2244.8,2647.75L2259.23,2647.75C2261.53,2647.75 2263.41,2649.62 2263.41,2651.93L2263.41,2667.38L2272.46,2667.38L2272.46,2651.4C2272.46,2645.74 2267.87,2641.16 2262.21,2641.16C2255.98,2641.16 2248.05,2641.16 2241.82,2641.16C2236.16,2641.16 2231.57,2645.74 2231.57,2651.4L2231.57,2667.38L2240.62,2667.38Z"
-                                            style="fill:rgb(51,51,51);"></path>
+                                            style="fill: rgb(51, 51, 51)"></path>
                                     </g>
                                     <g transform="matrix(1.15425,8.16504e-17,-7.71993e-17,-0.460949,-1759.58,277.085)">
                                         <path
                                             d="M1632.42,473.963L1527.34,473.963C1527.34,473.963 1529.52,492.376 1531.17,506.383C1532.26,515.595 1535.64,521.915 1539.48,521.915L1620.28,521.915C1624.12,521.915 1627.5,515.595 1628.59,506.383C1630.25,492.376 1632.42,473.963 1632.42,473.963Z"
-                                            style="fill:rgb(244,187,49);"></path>
+                                            style="fill: rgb(244, 187, 49)"></path>
                                     </g>
                                     <g transform="matrix(1,0,0,1,-2188.01,-2621.67)">
                                         <path
                                             d="M2193.27,2680.28L2191.37,2680.28C2191.37,2680.28 2193.88,2671.8 2195.79,2665.34C2197.05,2661.09 2200.95,2658.18 2205.38,2658.18L2298.65,2658.18C2303.08,2658.18 2306.98,2661.09 2308.24,2665.34C2310.15,2671.8 2312.66,2680.28 2312.66,2680.28L2310.76,2680.28L2308.24,2671.76C2306.98,2667.52 2303.08,2664.6 2298.65,2664.6L2205.38,2664.6C2200.95,2664.6 2197.05,2667.52 2195.79,2671.76L2193.27,2680.28Z"
-                                            style="fill:rgb(247,204,101);"></path>
+                                            style="fill: rgb(247, 204, 101)"></path>
                                     </g>
                                     <g transform="matrix(1.15425,0,0,1.09133,-1759.58,-458.638)">
                                         <path
                                             d="M1632.42,473.963L1527.34,473.963C1527.34,473.963 1530.45,500.239 1532.06,513.889C1532.6,518.474 1536.29,521.915 1540.66,521.915C1558.26,521.915 1601.5,521.915 1619.1,521.915C1623.47,521.915 1627.16,518.474 1627.7,513.889C1629.32,500.239 1632.42,473.963 1632.42,473.963Z"
-                                            style="fill:rgb(51,51,51);"></path>
+                                            style="fill: rgb(51, 51, 51)"></path>
                                     </g>
                                     <g transform="matrix(1,0,0,1,-2188.01,-2621.67)">
                                         <path
                                             d="M2311.99,2685.66L2312.66,2680.28L2191.37,2680.28L2192.04,2685.66L2311.99,2685.66Z"
-                                            style="fill:rgb(38,38,38);"></path>
+                                            style="fill: rgb(38, 38, 38)"></path>
                                     </g>
                                     <g transform="matrix(1,0,0,1,-2188.01,-2621.67)">
                                         <path
                                             d="M2311.98,2680.28L2307.21,2718.38C2306.58,2723.38 2302.33,2727.14 2297.29,2727.14C2276.97,2727.14 2227.06,2727.14 2206.74,2727.14C2201.7,2727.14 2197.45,2723.38 2196.82,2718.38L2192.05,2680.28L2191.37,2680.28C2191.37,2680.28 2194.95,2708.96 2196.82,2723.86C2197.45,2728.86 2201.7,2732.61 2206.74,2732.61C2227.06,2732.61 2276.97,2732.61 2297.29,2732.61C2302.33,2732.61 2306.58,2728.86 2307.21,2723.86C2309.07,2708.96 2312.66,2680.28 2312.66,2680.28L2311.98,2680.28Z"
-                                            style="fill:rgb(38,38,38);"></path>
+                                            style="fill: rgb(38, 38, 38)"></path>
                                     </g>
                                     <g transform="matrix(1.09133,0,0,1.08179,-1656.09,-453.819)">
-                                        <rect height="48.374" style="fill:rgb(244,187,49);" width="19.854" x="1537.56"
-                                            y="473.687">
-                                        </rect>
+                                        <rect height="48.374" style="fill: rgb(244, 187, 49)" width="19.854" x="1537.56"
+                                            y="473.687"></rect>
                                     </g>
                                     <g transform="matrix(1.09133,0,0,1.08179,-1593.54,-453.819)">
-                                        <rect height="48.374" style="fill:rgb(244,187,49);" width="19.854" x="1537.56"
-                                            y="473.687">
-                                        </rect>
+                                        <rect height="48.374" style="fill: rgb(244, 187, 49)" width="19.854" x="1537.56"
+                                            y="473.687"></rect>
                                     </g>
                                     <g transform="matrix(1.09133,0,0,0.112485,-1656.09,52.2185)">
-                                        <rect height="48.374" style="fill:rgb(183,140,37);" width="19.854" x="1537.56"
-                                            y="473.687">
-                                        </rect>
+                                        <rect height="48.374" style="fill: rgb(183, 140, 37)" width="19.854" x="1537.56"
+                                            y="473.687"></rect>
                                     </g>
                                     <g transform="matrix(1.09133,0,0,0.112485,-1593.54,52.2185)">
-                                        <rect height="48.374" style="fill:rgb(183,140,37);" width="19.854" x="1537.56"
-                                            y="473.687">
-                                        </rect>
+                                        <rect height="48.374" style="fill: rgb(183, 140, 37)" width="19.854" x="1537.56"
+                                            y="473.687"></rect>
                                     </g>
                                     <g transform="matrix(1.09133,0,0,0.112485,-1656.09,5.32883)">
-                                        <rect height="48.374" style="fill:rgb(183,140,37);" width="19.854" x="1537.56"
-                                            y="473.687">
-                                        </rect>
+                                        <rect height="48.374" style="fill: rgb(183, 140, 37)" width="19.854" x="1537.56"
+                                            y="473.687"></rect>
                                     </g>
                                     <g transform="matrix(1.09133,0,0,0.112485,-1593.54,5.32883)">
-                                        <rect height="48.374" style="fill:rgb(183,140,37);" width="19.854" x="1537.56"
-                                            y="473.687">
-                                        </rect>
+                                        <rect height="48.374" style="fill: rgb(183, 140, 37)" width="19.854" x="1537.56"
+                                            y="473.687"></rect>
                                     </g>
                                     <g transform="matrix(0.793081,0,0,0.793081,-1250.05,-305.803)">
                                         <path
                                             d="M1612.22,477.673L1612.22,466.269C1612.22,463.419 1614.53,461.109 1617.38,461.109C1617.43,461.109 1617.48,461.109 1617.53,461.109C1620.38,461.109 1622.69,463.419 1622.69,466.269L1622.69,477.673C1622.69,480.523 1620.38,482.833 1617.53,482.833C1617.48,482.833 1617.43,482.833 1617.38,482.833C1614.53,482.833 1612.22,480.523 1612.22,477.673Z"
-                                            style="fill:rgb(183,140,37);"></path>
+                                            style="fill: rgb(183, 140, 37)"></path>
                                     </g>
                                     <g transform="matrix(0.793081,0,0,0.793081,-1187.5,-305.803)">
                                         <path
                                             d="M1612.22,477.673L1612.22,466.269C1612.22,463.419 1614.53,461.109 1617.38,461.109C1617.43,461.109 1617.48,461.109 1617.53,461.109C1620.38,461.109 1622.69,463.419 1622.69,466.269L1622.69,477.673C1622.69,480.523 1620.38,482.833 1617.53,482.833C1617.48,482.833 1617.43,482.833 1617.38,482.833C1614.53,482.833 1612.22,480.523 1612.22,477.673Z"
-                                            style="fill:rgb(183,140,37);"></path>
+                                            style="fill: rgb(183, 140, 37)"></path>
                                     </g>
                                     <g transform="matrix(0.793081,0,0,0.793081,-1250.05,-309.813)">
                                         <path
                                             d="M1612.22,477.673L1612.22,466.269C1612.22,463.419 1614.53,461.109 1617.38,461.109C1617.43,461.109 1617.48,461.109 1617.53,461.109C1620.38,461.109 1622.69,463.419 1622.69,466.269L1622.69,477.673C1622.69,480.523 1620.38,482.833 1617.53,482.833C1617.48,482.833 1617.43,482.833 1617.38,482.833C1614.53,482.833 1612.22,480.523 1612.22,477.673Z"
-                                            style="fill:rgb(128,128,128);"></path>
+                                            style="fill: rgb(128, 128, 128)"></path>
                                     </g>
                                     <g transform="matrix(0.793081,0,0,0.793081,-1187.5,-309.813)">
                                         <path
                                             d="M1612.22,477.673L1612.22,466.269C1612.22,463.419 1614.53,461.109 1617.38,461.109C1617.43,461.109 1617.48,461.109 1617.53,461.109C1620.38,461.109 1622.69,463.419 1622.69,466.269L1622.69,477.673C1622.69,480.523 1620.38,482.833 1617.53,482.833C1617.48,482.833 1617.43,482.833 1617.38,482.833C1614.53,482.833 1612.22,480.523 1612.22,477.673Z"
-                                            style="fill:rgb(128,128,128);"></path>
+                                            style="fill: rgb(128, 128, 128)"></path>
                                     </g>
                                     <g transform="matrix(0.793081,0,0,0.793081,-1250.05,-309.813)">
                                         <path
                                             d="M1622.69,472.077L1612.22,472.077L1612.22,466.269C1612.22,463.419 1614.53,461.109 1617.38,461.109C1617.43,461.109 1617.48,461.109 1617.53,461.109C1620.38,461.109 1622.69,463.419 1622.69,466.269L1622.69,472.077Z"
-                                            style="fill:rgb(160,160,160);"></path>
+                                            style="fill: rgb(160, 160, 160)"></path>
                                     </g>
                                     <g transform="matrix(0.793081,0,0,0.793081,-1187.5,-309.813)">
                                         <path
                                             d="M1622.69,472.077L1612.22,472.077L1612.22,466.269C1612.22,463.419 1614.53,461.109 1617.38,461.109C1617.43,461.109 1617.48,461.109 1617.53,461.109C1620.38,461.109 1622.69,463.419 1622.69,466.269L1622.69,472.077Z"
-                                            style="fill:rgb(160,160,160);"></path>
+                                            style="fill: rgb(160, 160, 160)"></path>
                                     </g>
                                 </g>
                             </g>
                         </svg>
 
-                        <h3 class="bold">
-                            System Maintenance &amp; Repairs
-                        </h3>
-
+                        <h3 class="bold">System Maintenance &amp; Repairs</h3>
                     </div>
 
                     <div class="card-body">
-
-
                         <p>
-                            We provide comprehensive system maintenance and repair services to keep your devices
-                            running smoothly and efficiently.
+                            We provide comprehensive system maintenance and repair
+                            services to keep your devices running smoothly and
+                            efficiently.
                         </p>
-
                     </div>
 
                     <div class="card-footer">
                         <label for="">04</label>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <section class="projects" id="projects">
