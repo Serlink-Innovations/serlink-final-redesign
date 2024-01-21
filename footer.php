@@ -19,7 +19,7 @@
                 </label>
 
                 <label>
-                    <strong>Email:</strong> serlink.business@outlook.com
+                    <strong>Email:</strong> info@serlink.tech
                 </label>
 
             </div>
