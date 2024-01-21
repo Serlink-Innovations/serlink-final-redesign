@@ -445,6 +445,7 @@ body {
   }
 }
 .main-header .hero {
+  max-height: 100vh;
   display: grid;
   place-items: center;
   overflow: hidden;
