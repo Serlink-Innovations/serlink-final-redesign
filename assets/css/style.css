@@ -353,6 +353,7 @@ img {
   .show {
     box-shadow: 0 0 2px rgba(34, 76, 141, 0.5);
     display: flex !important;
+    margin-bottom: 1rem;
   }
   .nav {
     align-items: center;
