@@ -164,7 +164,7 @@ img {
   justify-content: center;
 }
 .member-card .member-info .name {
-  font-size: clamp(1rem, 10vw, 1.5rem);
+  font-size: clamp(1rem, 10vw, 1.25rem);
   text-align: center;
   letter-spacing: 1px;
 }
