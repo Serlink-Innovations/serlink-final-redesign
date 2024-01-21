@@ -74,7 +74,8 @@
 
             <div class="hero--button__container">
 
-                <button class="btn btn-primary">
+                <button class="btn btn-primary"
+                    onclick="location.href='https://wa.me/8687309322?text=Hello%2C%20I%20am%20looking%20for%20more%20information%20on%20your%20services.'">
                     Learn More
                 </button>
 
@@ -167,7 +168,9 @@
                     with our clients.
                 </p>
 
-                <button name="Learn More Button" onclick="window.location.href='/about.php'" class="btn btn-primary">
+                <button name="Learn More Button"
+                    onclick="location.href='https://wa.me/8687309322?text=Hello%2C%20I%20am%20looking%20for%20more%20information%20on%20your%20services.'"
+                    class="btn btn-primary">
                     Learn More
                 </button>
             </div>
