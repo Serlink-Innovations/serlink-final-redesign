@@ -59,12 +59,13 @@ img {
 .btn {
   align-items: center;
   border: none;
-  border-radius: 100vmax;
+  border-radius: 0.375rem;
   cursor: pointer;
   display: inline-flex;
+  font-weight: bold;
   font-size: clamp(0.8rem, 8vw, 1rem);
   letter-spacing: 1px;
-  padding: 0.7rem 1rem;
+  padding: 0.8rem 1rem;
 }
 
 .btn-primary {
@@ -318,12 +319,21 @@ img {
   padding-inline: 1rem;
   list-style: none;
   list-style-type: none;
+  font-variant: small-caps;
 }
 .nav .nav-item .nav-links {
   color: var(--text-primary);
   font-size: clamp(0.85rem, 10vw, 1rem);
   font-family: Helvetica, sans-serif;
+  font-weight: bold;
   text-decoration: none;
+  letter-spacing: 1px;
+}
+.nav .nav-links:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-thickness: 0.1em;
 }
 
 /**
