@@ -1,9 +1,9 @@
-const nav = document.querySelector(".nav");
+let nav = document.querySelector(".nav");
 
 function toggleMobileNav() {
-    if (nav.style.display === "none") {
-        nav.style.display = "flex !important"
+    if (nav.display.style === 'none !important') {
+        nav.display.style = 'flex !important'
     } else {
-        nav.style.display === "none"
+        nav.display.style = 'none !important'
     }
 }

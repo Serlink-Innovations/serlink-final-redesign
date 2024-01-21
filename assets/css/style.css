@@ -344,6 +344,10 @@ img {
 /**
 * Navigation
 **/
+.nav {
+  display: flex !important;
+}
+
 @media (max-width: 996px) {
   .nav {
     align-items: center;
