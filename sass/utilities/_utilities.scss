@@ -293,6 +293,7 @@
 
 @media (max-width: 996px) {
   .show {
+    box-shadow: 0 0 2px rgba($color: #224c8d, $alpha: 0.5);
     display: flex !important;
   }
 
@@ -303,13 +304,22 @@
     display: none;
     flex-direction: column !important;
     gap: 1rem;
+    justify-content: center;
 
     .nav-item {
-      padding: 1rem;
+      width: 100%;
 
       .nav-links {
+        display: grid;
         color: currentColor !important;
+        padding: 1rem;
+        place-content: center;
       }
+    }
+
+    .nav-item:hover {
+      background-color: var(--primary);
+      color: var(--text-secondary);
     }
   }
 }

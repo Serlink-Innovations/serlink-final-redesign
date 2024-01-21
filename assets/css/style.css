@@ -351,6 +351,7 @@ img {
 }
 @media (max-width: 996px) {
   .show {
+    box-shadow: 0 0 2px rgba(34, 76, 141, 0.5);
     display: flex !important;
   }
   .nav {
@@ -360,12 +361,20 @@ img {
     display: none;
     flex-direction: column !important;
     gap: 1rem;
+    justify-content: center;
   }
   .nav .nav-item {
-    padding: 1rem;
+    width: 100%;
   }
   .nav .nav-item .nav-links {
+    display: grid;
     color: currentColor !important;
+    padding: 1rem;
+    place-content: center;
+  }
+  .nav .nav-item:hover {
+    background-color: var(--primary);
+    color: var(--text-secondary);
   }
 }
 .nav {
