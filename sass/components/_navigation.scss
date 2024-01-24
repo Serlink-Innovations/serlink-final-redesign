@@ -22,6 +22,7 @@
 
 .navigation {
   width: 100%;
+  color: var(--text-secondary);
   position: fixed;
   z-index: 5;
 
@@ -39,4 +40,10 @@
       height: 35px;
     }
   }
+}
+
+.scrolled {
+  background-color: #224c8d;
+  color: var(--text-primary);
+  transition: ease-in-out 300ms 300ms;
 }

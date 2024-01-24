@@ -26,6 +26,7 @@
 
 .navigation {
   width: 100%;
+  color: var(--text-secondary);
   position: fixed;
   z-index: 5;
 }
@@ -43,6 +44,12 @@
 .navigation .navToggle svg {
   width: 35px;
   height: 35px;
+}
+
+.scrolled {
+  background-color: #224c8d;
+  color: var(--text-primary);
+  transition: ease-in-out 300ms 300ms;
 }
 
 html {
@@ -91,14 +98,20 @@ img {
   cursor: pointer;
   display: inline-flex;
   font-weight: bold;
-  font-size: clamp(0.8rem, 8vw, 1rem);
+  font-size: clamp(0.75em, 8vw, 0.88em);
   letter-spacing: 1px;
-  padding: 0.8rem 1rem;
+  padding: 0.675rem 1rem;
   justify-content: center;
 }
 
 .btn-primary {
   background-color: var(--primary);
+  color: var(--text-secondary);
+}
+
+.btn-outline {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  background-color: transparent;
   color: var(--text-secondary);
 }
 
