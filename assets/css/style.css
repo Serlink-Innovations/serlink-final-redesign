@@ -215,6 +215,7 @@ img {
   display: none;
   gap: 1rem;
   justify-content: center;
+  margin-block: 1rem;
 }
 .member-card .member-info .member-social a {
   background-color: var(--primary);
