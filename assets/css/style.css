@@ -47,9 +47,13 @@
 }
 
 .scrolled {
+  height: 75px;
   background-color: #224c8d;
   color: var(--text-primary);
   transition: ease-in-out 300ms 300ms;
+}
+.scrolled .navbar {
+  height: inherit;
 }
 
 html {
