@@ -532,6 +532,7 @@ body {
 }
 @media (max-width: 996px) {
   .main-header .hero {
+    min-height: 50vh;
     display: block;
     padding-block: 0 !important;
   }
@@ -548,7 +549,7 @@ body {
   }
 }
 .main-header .hero {
-  max-height: 100vh;
+  max-height: 100dvh;
   background-image: url("https://images.unsplash.com/photo-1633432695903-9ef31eec6a05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
   display: grid;
   place-items: center;
@@ -637,7 +638,7 @@ section.about .section-title,
 section.services .section-title,
 section.projects .section-title,
 section.team .section-title {
-  margin-block: 2rem;
+  margin-block: 2.5rem;
 }
 
 /**
