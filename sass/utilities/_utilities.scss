@@ -202,6 +202,7 @@
 }
 
 .member-card:hover>.member-info {
+  border-radius: inherit;
   cursor: pointer;
   transform: translateY(0%) translateY(0px);
   position: absolute;
