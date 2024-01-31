@@ -30,6 +30,9 @@
   position: fixed;
   z-index: 5;
 }
+.navigation .navToggle:hover {
+  scale: 1.5 !important;
+}
 .navigation .navToggle {
   width: -moz-max-content;
   width: max-content;
@@ -37,9 +40,11 @@
   height: max-content;
   border: none;
   background-color: transparent;
+  cursor: pointer;
   color: var(--text-secondary);
   padding: 0.6em;
   grid-area: navToggle;
+  transition: ease-in-out 300ms;
 }
 .navigation .navToggle svg {
   width: 35px;

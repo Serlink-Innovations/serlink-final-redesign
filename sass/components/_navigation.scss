@@ -26,14 +26,20 @@
   position: fixed;
   z-index: 5;
 
+  .navToggle:hover{
+    scale: 1.5 !important;
+  }
+
   .navToggle {
     width: max-content;
     height: max-content;
     border: none;
     background-color: transparent;
+    cursor: pointer;
     color: var(--text-secondary);
     padding: 0.6em;
     grid-area: navToggle;
+    transition: ease-in-out 300ms;
 
     svg {
       width: 35px;
