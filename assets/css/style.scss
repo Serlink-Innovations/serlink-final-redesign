@@ -344,8 +344,7 @@ section.team {
         align-items: center !important;
         flex-wrap: nowrap !important;
         flex-direction: column;
-        justify-content: space-around;
-        margin: auto !important;
+        margin-inline: auto !important;
       }
     }
 
@@ -358,7 +357,7 @@ section.team {
 
         li {
           width: max-content;
-          padding: 0.5rem;
+          padding-block: 0.5rem;
 
           a {
             color: var(--text-primary);

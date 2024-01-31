@@ -815,8 +815,7 @@ section.team #team--memberContainer::-webkit-scrollbar {
     align-items: center !important;
     flex-wrap: nowrap !important;
     flex-direction: column;
-    justify-content: space-around;
-    margin: auto !important;
+    margin-inline: auto !important;
   }
 }
 .footer #footer--contentConainter .footer__nav {
@@ -829,7 +828,7 @@ section.team #team--memberContainer::-webkit-scrollbar {
 .footer #footer--contentConainter .footer__nav ul li {
   width: -moz-max-content;
   width: max-content;
-  padding: 0.5rem;
+  padding-block: 0.5rem;
 }
 .footer #footer--contentConainter .footer__nav ul li a {
   color: var(--text-primary);
