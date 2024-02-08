@@ -159,15 +159,63 @@ section.team {
 * Section Contact
 **/
 .contact--form {
-  max-width: 55ch;
+  max-width: 80%;
   display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin-inline: auto;
   margin-top: 8rem;
 
+  .contact--form__generalContact{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    grid-column: span 1;
+  }
+
+  .contact--form__card{
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    box-shadow: 0 0 2px rgba($color: #000000, $alpha: 0.3);
+    padding: 2rem;
+    
+    p{
+      color: rgba($color: #000000, $alpha: 0.5);
+      font-size: 18px;
+      font-weight: medium;
+      font-family: Helvetica, sans-serif;
+      letter-spacing: 1px;
+    }
+
+    label{
+      color: var(--primary);
+      font-size: 24px;
+      font-weight: bold;
+      font-family: Helvetica, sans-serif;
+      letter-spacing: 2px;
+    }
+
+    button{
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-block: 1.4rem;
+      letter-spacing: 2px;
+    }
+  }
+
   form {
+    box-shadow: 0 0 2px rgba($color: #000000, $alpha: 0.3);
     display: inherit;
+    grid-column: span 2;
     gap: 1rem;
     padding: 1rem;
+
+    .form--header{
+      display: grid;
+      gap: 1rem;
+      place-items: center;
+    }
   }
 }
 
