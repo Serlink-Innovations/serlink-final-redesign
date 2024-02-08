@@ -54,7 +54,6 @@ body {
   .hero {
     max-height: 100vh;
     display: grid;
-    //place-items: center;
     overflow: hidden;
 
     img {
@@ -68,7 +67,7 @@ body {
       height: max-content;
       color: #fff;
       letter-spacing: 1px;
-      margin-block: auto;
+      margin-block: 6rem;
 
       p {
         max-width: 55ch;

@@ -55,7 +55,6 @@
   height: 75px;
   background-color: #224c8d;
   color: var(--text-primary);
-  transition: ease-in-out 300ms 300ms;
 }
 .scrolled .navbar {
   height: inherit;
@@ -573,7 +572,7 @@ body {
   height: max-content;
   color: #fff;
   letter-spacing: 1px;
-  margin-block: auto;
+  margin-block: 6rem;
 }
 .main-header .hero .hero--contentContainer p {
   max-width: 55ch;
