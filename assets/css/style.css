@@ -659,7 +659,7 @@ section.contact-us .section-title {
 .contact--form__container {
   display: grid;
   gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(450px, 100%), 1fr));
 }
 .contact--form__container form {
   color: currentColor;
