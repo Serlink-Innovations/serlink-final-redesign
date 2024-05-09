@@ -91,8 +91,7 @@
   height: 350px;
   border-radius: 0.8rem;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.1),
-    0px 5px 8px 0px rgba(0, 0, 0, 0),
-    0px 1px 14px 0px rgba(0, 0, 0, 0);
+    0px 5px 8px 0px rgba(0, 0, 0, 0), 0px 1px 14px 0px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
   aspect-ratio: 1/1;
@@ -152,7 +151,7 @@
   }
 }
 
-.project-card>* {
+.project-card > * {
   grid-column: 1/-1;
   grid-row: 1/-1;
   border-radius: 12px;
@@ -201,7 +200,7 @@
   text-transform: uppercase;
 }
 
-.member-card:hover>.member-info {
+.member-card:hover > .member-info {
   border-radius: inherit;
   cursor: pointer;
   transform: translateY(0%) translateY(0px);
@@ -366,6 +365,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+  margin-inline: auto;
 }
 
 /**
