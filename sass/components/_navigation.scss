@@ -49,7 +49,7 @@
 
 .scrolled {
   height: 75px;
-  background-color: #224c8d;
+  background-color: rgba($color: #224c8d, $alpha: 0.875);
   color: var(--text-primary);
 
   .navbar {

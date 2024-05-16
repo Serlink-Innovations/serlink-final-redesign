@@ -53,7 +53,7 @@
 
 .scrolled {
   height: 75px;
-  background-color: #224c8d;
+  background-color: rgba(34, 76, 141, 0.875);
   color: var(--text-primary);
 }
 .scrolled .navbar {
