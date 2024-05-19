@@ -3,3 +3,15 @@
 
 @import "generic/normalize";
 @import "utilities/utilities";
+
+
+.formAlert{
+    width: 100%;
+    background-color: #FFF;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+}

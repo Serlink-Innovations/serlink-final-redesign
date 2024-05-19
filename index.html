@@ -1050,7 +1050,7 @@
           </div>
         </section>
 
-        <!-- <section class="team container" id="team">
+        <section class="team container" id="team">
           <p class="bold center display-3 section-title">Meet the Team</p>
 
           <p id="team--paragraph">
@@ -1245,13 +1245,15 @@
               </div>
             </div>
           </div>
-        </section> -->
+        </section>
 
         <section class="contact-us container" id="contact-us">
           <p class="bold center display-3 section-title">Contact Us</p>
 
           <div class="contact--form__container">
-            <form action="https://api.web3forms.com/submit" method="post">
+            
+            <form action="" id="contact-form">
+
               <div class="form--header">
                 <h3>Schedule a Meeting</h3>
                 <p>
@@ -1260,62 +1262,23 @@
                   <strong>"Send Message"</strong> to complete the form.
                 </p>
               </div>
-              <input
-                type="hidden"
-                name="access_key"
-                value="afee90cc-26d4-4521-9712-74a554808ef6"
-              />
-              <input type="text" name="name" id="" placeholder="Full Name" />
-              <input
-                type="email"
-                name="email"
-                id=""
-                placeholder="Email Address"
-              />
-              <input
-                type="tel"
-                name=""
-                id="tel"
-                placeholder="Telephone Number"
-              />
-              <input type="text" name="" id="subject" placeholder="Subject" />
-              <textarea
-                name="message"
-                id=""
-                cols="30"
-                rows="10"
-                placeholder="Enter your message!!!"
-              ></textarea>
-              <div
-                class="h-captcha"
-                data-captcha="true"
-                data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
-              >
-                <iframe
-                  src="https://newassets.hcaptcha.com/captcha/v1/50fb34a/static/hcaptcha.html#frame=checkbox&amp;id=0osmu80fnv4a&amp;host=serlink.tech&amp;sentry=true&amp;reportapi=https%3A%2F%2Faccounts.hcaptcha.com&amp;recaptchacompat=off&amp;custom=false&amp;hl=en&amp;tplinks=on&amp;pstissuer=https%3A%2F%2Fpst-issuer.hcaptcha.com&amp;sitekey=50b2fe65-b00b-4b9e-ad62-3ba471098be2&amp;theme=light&amp;origin=https%3A%2F%2Fserlink.tech"
-                  tabindex="0"
-                  frameborder="0"
-                  scrolling="no"
-                  allow="private-state-token-issuance 'src'; private-state-token-redemption 'src'"
-                  title="Widget containing checkbox for hCaptcha security challenge"
-                  data-hcaptcha-widget-id="0osmu80fnv4a"
-                  data-hcaptcha-response=""
-                  style="
-                    pointer-events: auto;
-                    width: 303px;
-                    height: 78px;
-                    overflow: hidden;
-                  "
-                ></iframe
-                ><textarea
-                  id="h-captcha-response-0osmu80fnv4a"
-                  name="h-captcha-response"
-                  style="display: none"
-                ></textarea>
+
+              <div class="form--body">
+
+                <input type="text" name="name" id="name" placeholder="Full Name">
+
+                <input type="email" name="email" id="email" placeholder="Email Address">
+
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+
+                <textarea name="message" id="message" cols="25" rows="10" placeholder="Message!"></textarea>
+
               </div>
+
               <button class="btn btn-primary" type="submit">
-                Send Message
+              Send Message
               </button>
+
             </form>
 
             <div class="contact--form__info"></div>
@@ -1456,6 +1419,7 @@
       </footer>
     </div>
 
+    <script src="/assets//js/form.js"></script>
     <script src="/assets/js/main.js"></script>
   </body>
 </html>

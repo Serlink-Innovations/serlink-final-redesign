@@ -508,6 +508,17 @@ textarea:focus-within {
   border: 2px solid #224c8d;
 }
 
+.formAlert {
+  width: 100%;
+  background-color: #FFF;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+}
+
 * {
   margin: 0;
   padding: 0;
