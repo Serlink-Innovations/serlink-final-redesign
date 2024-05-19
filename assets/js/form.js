@@ -9,6 +9,7 @@ var dataPhone = document.querySelector("#phone");
 var dataMessage = document.querySelector("#message");
 
 contactForm.addEventListener('submit', function submitter(e){
+  setTimeout(()=>div.remove(),3000);
   alert("Form submitted successfully!");
   window.location.href = "/";
   event.preventDefault();
