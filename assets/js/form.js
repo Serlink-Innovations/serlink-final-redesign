@@ -11,6 +11,7 @@ var dataMessage = document.querySelector("#message");
 contactForm.addEventListener('submit', function submitter(e){
   alert("Form submitted successfully!");
   window.location.href = "/";
+  event.preventDefault();
 
   var message = ''
 
