@@ -6,6 +6,7 @@ const contactForm = document.querySelector("#contact-form");
 var dataName = document.querySelector("#name");
 var dataEmail = document.querySelector("#email");
 var dataPhone = document.querySelector("#phone");
+var dataSubject = document.querySelector("#subject");
 var dataMessage = document.querySelector("#message");
 
 contactForm.addEventListener('submit', function submitter(e){
@@ -28,6 +29,10 @@ contactForm.addEventListener('submit', function submitter(e){
     message += '\n** Phone number cannot be less than 7 and more than 12 characters!';
   }
 
+  if (dataSubject.value.trim() === '') {
+    message += '\n** Please enter your subject!';
+  }
+
   if (dataMessage.value.trim() === '') {
     message += '\n** Please enter your message!';
   }
@@ -45,6 +50,7 @@ contactForm.addEventListener('submit', function submitter(e){
       name: dataName.value,
       email: dataEmail.value,
       phone: dataPhone.value,
+      subject: dataSubject.value,
       message: dataMessage.value
     }
 

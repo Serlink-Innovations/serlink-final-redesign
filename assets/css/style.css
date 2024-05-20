@@ -684,10 +684,19 @@ section.contact-us .section-title {
 }
 .contact--form__container form input,
 .contact--form__container form textarea,
+.contact--form__container form select,
 .contact--form__container form .h-captcha {
   width: -webkit-fill-available;
   margin-bottom: 1em;
   font-family: Helvetica, sans-serif;
+}
+.contact--form__container form select {
+  border: none;
+  border-bottom: 2px solid rgba(34, 76, 141, 0.3);
+  padding: 0.6em;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
 }
 .contact--form__container .contact--form__info {
   background-position: center center;

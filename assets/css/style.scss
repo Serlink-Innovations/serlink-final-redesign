@@ -177,10 +177,20 @@ section.contact-us {
 
     input,
     textarea,
+    select,
     .h-captcha {
       width: -webkit-fill-available;
       margin-bottom: 1em;
       font-family: Helvetica, sans-serif;
+    }
+
+    select{
+      border: none;
+      border-bottom: 2px solid rgba($color: #224c8d, $alpha: 0.3);
+      padding: 0.6em;
+      font-size: 1em;
+      color: rgba($color: #000000, $alpha: 0.6);
+      letter-spacing: 1px;
     }
   }
 
