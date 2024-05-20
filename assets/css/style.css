@@ -687,6 +687,7 @@ section.contact-us .section-title {
 .contact--form__container form .h-captcha {
   width: -webkit-fill-available;
   margin-bottom: 1em;
+  font-family: Helvetica, sans-serif;
 }
 .contact--form__container .contact--form__info {
   background-position: center center;
