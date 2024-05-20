@@ -9,8 +9,11 @@ var dataPhone = document.querySelector("#phone");
 var dataMessage = document.querySelector("#message");
 
 contactForm.addEventListener('submit', function submitter(e){
-  /* window.location.href = "/";
-  submitter.preventDefault(); */
+  e.preventDefault();
+  alert("Message Successfully Sent!")
+  setTimeout(() => {
+    window.location.href = "/";
+  }, 1000);
 
   var message = ''
 
@@ -57,8 +60,6 @@ function addSendMail(data){
   }).then(res => res.json()).then(json =>{
     console.log(json);
   })
-
-  //alert("Form submitted successfully!");
 
 }
 
