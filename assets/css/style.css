@@ -508,15 +508,25 @@ textarea:focus-within {
   border: 2px solid #224c8d;
 }
 
-.formAlert {
-  width: 100%;
-  background-color: #FFF;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1em;
+.form--body {
+  display: grid;
+  gap: 1em;
+  grid-template-areas: "name email" "phone phone" "subject subject" "message message";
+}
+.form--body #name {
+  grid-area: name;
+}
+.form--body #email {
+  grid-area: email;
+}
+.form--body #phone {
+  grid-area: phone;
+}
+.form--body #subject {
+  grid-area: subject;
+}
+.form--body #message {
+  grid-area: message;
 }
 
 * {
