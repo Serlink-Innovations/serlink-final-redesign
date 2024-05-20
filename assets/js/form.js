@@ -10,57 +10,56 @@ var dataMessage = document.querySelector("#message");
 
 contactForm.addEventListener('submit', function submitter(e){
   e.preventDefault();
-  alert("Message Successfully Sent!")
-  setTimeout(() => {
-    window.location.href = "/";
-  }, 1000);
 
-  var message = ''
+  var message = '';
 
-  if (dataName.value.length < 5) {
-    message += '<br>** Please enter a valid name!</br>';
+  // Check if form fields are empty
+  if (dataName.value.trim() === '') {
+    message += '\n** Please enter your name!';
   }
 
-  if (dataEmail.value.length < 5) {
-    message +='<br>** Please enter a valid email address!</br>';
-  }
-  if (dataPhone.value.length < 7 || dataPhone.value.length > 12) {
-    message +='<br>** Phone number cannot be less than 7 and more than 12 characters!</br>';
+  if (dataEmail.value.trim() === '') {
+    message += '\n** Please enter your email address!';
   }
 
-  if (message) {
-    const div = document.createElement('div');
-    div.innerHTML = message;
-    div.style.color = 'red';
-    div.className = "formAlert"
-    contactForm.prepend(div);
+  if (dataPhone.value.trim() === '') {
+    message += '\n** Please enter your phone number!';
+  } else if (dataPhone.value.length < 7 || dataPhone.value.length > 12) {
+    message += '\n** Phone number cannot be less than 7 and more than 12 characters!';
+  }
 
-    setTimeout(()=>div.remove(),5000);
+  if (dataMessage.value.trim() === '') {
+    message += '\n** Please enter your message!';
+  }
+
+  if (message !== '') {
+    const div = alert(message);
+    contactForm.prepend();
   } else {
+    alert("Message Successfully Sent!");
+    setTimeout(() => {
+      window.location.href = "/";
+    }, 1000);
 
     const myItem = {
-      name:dataName.value,
-      email:dataEmail.value,
-      phone:dataPhone.value,
-      message:dataMessage.value
+      name: dataName.value,
+      email: dataEmail.value,
+      phone: dataPhone.value,
+      message: dataMessage.value
     }
 
     addSendMail(myItem);
   }
-
 });
 
 function addSendMail(data){
   console.log(data);
   fetch(url,{
-
     method:'POST',
     body:JSON.stringify(data)
-
   }).then(res => res.json()).then(json =>{
     console.log(json);
   })
-
 }
 
 function addSendMailGet(data){
