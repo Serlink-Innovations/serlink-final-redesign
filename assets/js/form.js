@@ -9,9 +9,8 @@ var dataPhone = document.querySelector("#phone");
 var dataMessage = document.querySelector("#message");
 
 contactForm.addEventListener('submit', function submitter(e){
-  alert("Form submitted successfully!");
-  window.location.href = "/";
-  event.preventDefault();
+  /* window.location.href = "/";
+  submitter.preventDefault(); */
 
   var message = ''
 
@@ -22,8 +21,8 @@ contactForm.addEventListener('submit', function submitter(e){
   if (dataEmail.value.length < 5) {
     message +='<br>** Please enter a valid email address!</br>';
   }
-  if (dataPhone.value.length < 7 || dataPhone.value.length > 10) {
-    message +='<br>** Phone number cannot be less than 7 and more than 10 characters!</br>';
+  if (dataPhone.value.length < 7 || dataPhone.value.length > 12) {
+    message +='<br>** Phone number cannot be less than 7 and more than 12 characters!</br>';
   }
 
   if (message) {
@@ -58,6 +57,9 @@ function addSendMail(data){
   }).then(res => res.json()).then(json =>{
     console.log(json);
   })
+
+  //alert("Form submitted successfully!");
+
 }
 
 function addSendMailGet(data){
