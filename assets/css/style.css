@@ -850,24 +850,25 @@ section.team #team--memberContainer::-webkit-scrollbar {
     margin-inline: auto !important;
   }
 }
-.footer #footer--contentConainter .footer__nav {
-  display: flex;
+.footer #footer--contentConainter .footer__Nav {
+  color: currentColor;
   flex-wrap: wrap;
 }
-.footer #footer--contentConainter .footer__nav ul {
+.footer #footer--contentConainter .footer__Nav ul {
   display: block;
 }
-.footer #footer--contentConainter .footer__nav ul li {
+.footer #footer--contentConainter .footer__Nav ul li {
   width: -moz-max-content;
   width: max-content;
   padding-block: 0.5rem;
 }
-.footer #footer--contentConainter .footer__nav ul li a {
-  color: var(--text-primary);
+.footer #footer--contentConainter .footer__Nav ul li a {
+  color: inherit;
+  font-weight: unset;
   font-family: Helvetica, sans-serif;
   text-decoration: none;
 }
-.footer #footer--contentConainter .footer__nav ul li:hover {
+.footer #footer--contentConainter .footer__Nav ul li:hover {
   color: var(--primary);
   transform: scale(1.05);
   text-decoration: underline;

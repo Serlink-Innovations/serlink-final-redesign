@@ -368,8 +368,8 @@ section.team {
       }
     }
 
-    .footer__nav {
-      display: flex;
+    .footer__Nav {
+      color: currentColor;
       flex-wrap: wrap;
 
       ul {
@@ -380,7 +380,8 @@ section.team {
           padding-block: 0.5rem;
 
           a {
-            color: var(--text-primary);
+            color: inherit;
+            font-weight: unset;
             font-family: Helvetica, sans-serif;
             text-decoration: none;
           }
